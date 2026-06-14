@@ -63,6 +63,14 @@ services:
     ports:
       - "6379:6379"
 
+  sqlite:
+    build: sqlite
+    container_name: db_playground_sqlite
+    ports:
+      - "127.0.0.1:2222:22"
+    volumes:
+      - ./sqlite/keys:/keys
+
   elasticsearch-seed:
     build: elasticsearch
     container_name: db_pg_elastic_seed

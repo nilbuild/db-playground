@@ -1,9 +1,16 @@
-.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli elasticsearch elasticsearch-cli
+.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlite-ssh
 
 redis:
 	./playground.sh -s redis
 redis-cli:
 	@docker exec -it db_playground_redis redis-cli
+
+sqlite:
+	./playground.sh -s sqlite
+sqlite-cli:
+	@docker exec -it db_playground_sqlite sqlite3 /data/northwind.db
+sqlite-ssh:
+	@ssh -i sqlite/keys/id_playground -p 2222 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null playground@127.0.0.1
 
 mongo:
 	./playground.sh -s mongo

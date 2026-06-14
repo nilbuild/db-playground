@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-readonly SERVICES_LIST="mongo | postgres | mysql | elasticsearch | redis | all"
+readonly SERVICES_LIST="mongo | postgres | mysql | elasticsearch | redis | sqlite | all"
 readonly DOCKER_COMPOSE_FILE="./docker-compose.yml"
 
 require() {
@@ -24,13 +24,13 @@ Examples:
   playground.sh -s mysql          # Run mysql service
   playground.sh -s elasticsearch  # Run elasticsearch service
   playground.sh -s redis          # Run redis service
+  playground.sh -s sqlite         # Run sqlite service
   playground.sh -s all            # Run all services
   playground.sh -c                # Clean up the data only
 EOS
 }
 
 require docker
-require docker-compose
 
 # Read options and values
 while getopts "chs:" opt; do
@@ -74,22 +74,22 @@ fi
 # Clean up the container
 if [[ ${option_c:=} ]]; then
   echo " 🧹  Cleaning up the existing data in playground"
-  docker-compose -f "${DOCKER_COMPOSE_FILE}" down -v
+  docker compose -f "${DOCKER_COMPOSE_FILE}" down -v
 fi
 
 # Run the given service
 if [[ ${option_s:=} ]]; then
   if [[ $option_s == "all" ]]; then
     echo " 🚀  Running all services"
-    docker-compose -f "${DOCKER_COMPOSE_FILE}" up
+    docker compose -f "${DOCKER_COMPOSE_FILE}" up
   elif [[ $option_s == "mongo" ]]; then
     echo " 🚀  Running mongo service"
-    docker-compose -f "${DOCKER_COMPOSE_FILE}" up mongo mongo-seed
+    docker compose -f "${DOCKER_COMPOSE_FILE}" up mongo mongo-seed
   elif [[ $option_s == "elasticsearch" ]]; then
     echo " 🚀  Running elasticsearch service"
-    docker-compose -f "${DOCKER_COMPOSE_FILE}" up elasticsearch elasticsearch-seed
+    docker compose -f "${DOCKER_COMPOSE_FILE}" up elasticsearch elasticsearch-seed
   else
     echo " 🚀  Running $option_s service"
-    docker-compose -f "${DOCKER_COMPOSE_FILE}" up "$option_s"
+    docker compose -f "${DOCKER_COMPOSE_FILE}" up "$option_s"
   fi
 fi
