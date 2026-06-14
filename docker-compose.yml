@@ -27,6 +27,20 @@ services:
     ports:
       - "4306:3306"
 
+  mariadb:
+    image: mariadb:11
+    container_name: db_playground_mariadb
+    environment:
+      MARIADB_USER: admin
+      MARIADB_PASSWORD: admin
+      MARIADB_DATABASE: northwind
+      MARIADB_ROOT_PASSWORD: root
+    volumes:
+      - ./mariadb/dataset:/docker-entrypoint-initdb.d
+      - db_playground_mariadbdata:/var/lib/mysql
+    ports:
+      - "4307:3306"
+
   mongo:
     image: mongo:6.0
     container_name: db_playground_mongo
@@ -66,10 +80,6 @@ services:
   sqlite:
     build: sqlite
     container_name: db_playground_sqlite
-    ports:
-      - "127.0.0.1:2222:22"
-    volumes:
-      - ./sqlite/keys:/keys
 
   elasticsearch-seed:
     build: elasticsearch
@@ -83,4 +93,5 @@ services:
 volumes:
   db_playground_pgdata:
   db_playground_mysqldata:
+  db_playground_mariadbdata:
   db_playground_mongodata:

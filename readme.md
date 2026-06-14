@@ -5,7 +5,7 @@
 The repository has a simple docker-compose file and a few scripts to set up any database playground with sample data in
 seconds. It is a great way to test your database queries and learn about the database.
 
-You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MongoDB, SQLite and some sample indexes (omdb and shakespeare) in Elasticsearch.
+You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite and some sample indexes (omdb and shakespeare) in Elasticsearch.
 
 ## Usage
 
@@ -21,6 +21,7 @@ To spin up any of the services, run any of the below commands in a terminal
 # run any of the below commands to start the relevant service
 make postgres
 make mysql
+make mariadb
 make mongo
 make elasticsearch
 make redis
@@ -31,6 +32,7 @@ Once the service is up, you can run the below command in another terminal to con
 ```shell
 make postgres-cli
 make mysql-cli
+make mariadb-cli
 make mongo-cli
 make elasticsearch-cli
 make redis-cli
@@ -50,6 +52,7 @@ make sqlite-cli
 # run a single service
 ./playground.sh -s mongo
 ./playground.sh -s mysql
+./playground.sh -s mariadb
 ./playground.sh -s posgres
 ./playground.sh -s elasticsearch
 ./playground.sh -s redis
@@ -65,6 +68,7 @@ make sqlite-cli
 ./playground.sh -c -s elasticsearch
 ./playground.sh -c -s redis
 ./playground.sh -c -s mysql
+./playground.sh -c -s mariadb
 ./playground.sh -c -s sqlite
 ```
 
@@ -115,6 +119,22 @@ Database: northwind
 You can use the following command to run commands on the database
 ```bash
 docker exec -it db_playground_mysql mysql -uadmin -padmin
+```
+
+### MariaDB
+
+Following are the details to connect to the database
+
+```text
+Host:     localhost
+Port:     4307
+Username: admin
+Password: admin
+Database: northwind
+```
+You can use the following command to run commands on the database
+```bash
+docker exec -it db_playground_mariadb mariadb -uadmin -padmin
 ```
 
 ## MongoDB
@@ -178,44 +198,6 @@ You can use the following command to open a SQLite shell against the database
 ```bash
 docker exec -it db_playground_sqlite sqlite3 /data/northwind.db
 ```
-
-### SSH access
-
-The SQLite container also runs an SSH server so an app can connect to it like a remote box and read the database over SSH/SFTP. Authentication is key-only.
-
-On the first `make sqlite` (or `./playground.sh -s sqlite`), an ed25519 keypair is generated into `sqlite/keys/` (gitignored). The container trusts the public key; your app connects with the private key.
-
-```text
-Host:        127.0.0.1
-Port:        2222
-User:        playground
-Private key: sqlite/keys/id_playground
-Database:    /data/northwind.db
-```
-
-Open a shell on the container over SSH:
-
-```bash
-make sqlite-ssh
-# or directly
-ssh -i sqlite/keys/id_playground -p 2222 playground@127.0.0.1
-```
-
-Read the database remotely (run a query over SSH):
-
-```bash
-ssh -i sqlite/keys/id_playground -p 2222 playground@127.0.0.1 \
-  'sqlite3 /data/northwind.db "SELECT category_name FROM categories;"'
-```
-
-Or copy the file out over SFTP/SCP and open it locally:
-
-```bash
-scp -i sqlite/keys/id_playground -P 2222 \
-  playground@127.0.0.1:/data/northwind.db ./northwind.db
-```
-
-> The port is bound to `127.0.0.1` only, so it is reachable from your machine but not the network. The host key changes whenever the container is rebuilt, so a client app should not pin it (e.g. set `StrictHostKeyChecking=no` for local dev).
 
 ## Contributing
 
