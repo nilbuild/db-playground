@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | all"
+readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | sqlserver | all"
 readonly DOCKER_COMPOSE_FILE="./docker-compose.yml"
 
 require() {
@@ -26,6 +26,7 @@ Examples:
   playground.sh -s elasticsearch  # Run elasticsearch service
   playground.sh -s redis          # Run redis service
   playground.sh -s sqlite         # Run sqlite service
+  playground.sh -s sqlserver      # Run sqlserver service
   playground.sh -s all            # Run all services
   playground.sh -c                # Clean up the data only
 EOS
@@ -89,6 +90,9 @@ if [[ ${option_s:=} ]]; then
   elif [[ $option_s == "elasticsearch" ]]; then
     echo " 🚀  Running elasticsearch service"
     docker compose -f "${DOCKER_COMPOSE_FILE}" up elasticsearch elasticsearch-seed
+  elif [[ $option_s == "sqlserver" ]]; then
+    echo " 🚀  Running sqlserver service"
+    docker compose -f "${DOCKER_COMPOSE_FILE}" up sqlserver sqlserver-seed
   else
     echo " 🚀  Running $option_s service"
     docker compose -f "${DOCKER_COMPOSE_FILE}" up "$option_s"

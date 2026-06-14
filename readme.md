@@ -5,7 +5,7 @@
 The repository has a simple docker-compose file and a few scripts to set up any database playground with sample data in
 seconds. It is a great way to test your database queries and learn about the database.
 
-You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite and some sample indexes (omdb and shakespeare) in Elasticsearch.
+You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server and some sample indexes (omdb and shakespeare) in Elasticsearch.
 
 ## Usage
 
@@ -26,6 +26,7 @@ make mongo
 make elasticsearch
 make redis
 make sqlite
+make sqlserver
 ```
 
 Once the service is up, you can run the below command in another terminal to connect to the service
@@ -37,6 +38,7 @@ make mongo-cli
 make elasticsearch-cli
 make redis-cli
 make sqlite-cli
+make sqlserver-cli
 ```
 
 ### Using playground.sh
@@ -57,6 +59,7 @@ make sqlite-cli
 ./playground.sh -s elasticsearch
 ./playground.sh -s redis
 ./playground.sh -s sqlite
+./playground.sh -s sqlserver
 
 # clean up the playground
 ./playground.sh -c
@@ -70,6 +73,7 @@ make sqlite-cli
 ./playground.sh -c -s mysql
 ./playground.sh -c -s mariadb
 ./playground.sh -c -s sqlite
+./playground.sh -c -s sqlserver
 ```
 
 You can also ue the `docker-compose` command directly to run the services.
@@ -197,6 +201,26 @@ You can use the following command to open a SQLite shell against the database
 
 ```bash
 docker exec -it db_playground_sqlite sqlite3 /data/northwind.db
+```
+
+## SQL Server
+
+Following are the details to connect to the database
+
+```text
+Host:     localhost
+Port:     1434
+Username: sa
+Password: Admin@1234
+Database: northwind
+```
+
+SQL Server requires a strong `sa` password, so it does not use the `admin`/`admin`
+credentials shared by the other databases. You can use the following command to run
+commands on the database
+
+```bash
+docker exec -it db_playground_sqlserver /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'Admin@1234' -d northwind -C
 ```
 
 ## Contributing

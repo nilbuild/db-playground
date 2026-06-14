@@ -81,6 +81,27 @@ services:
     build: sqlite
     container_name: db_playground_sqlite
 
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: db_playground_sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Admin@1234"
+      MSSQL_PID: Developer
+    volumes:
+      - db_playground_sqlserverdata:/var/opt/mssql
+    ports:
+      - "1434:1433"
+
+  sqlserver-seed:
+    build: sqlserver
+    container_name: db_pg_sqlserver_seed
+    environment:
+      - DB_HOST=sqlserver
+      - SA_PASSWORD=Admin@1234
+    links:
+      - sqlserver
+
   elasticsearch-seed:
     build: elasticsearch
     container_name: db_pg_elastic_seed
@@ -95,3 +116,4 @@ volumes:
   db_playground_mysqldata:
   db_playground_mariadbdata:
   db_playground_mongodata:
+  db_playground_sqlserverdata:
