@@ -5,7 +5,7 @@
 The repository has a simple docker-compose file and a few scripts to set up any database playground with sample data in
 seconds. It is a great way to test your database queries and learn about the database.
 
-You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server and some sample indexes (omdb and shakespeare) in Elasticsearch.
+You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB and some sample indexes (omdb and shakespeare) in Elasticsearch.
 
 ## Usage
 
@@ -27,6 +27,7 @@ make elasticsearch
 make redis
 make sqlite
 make sqlserver
+make duckdb
 ```
 
 Once the service is up, you can run the below command in another terminal to connect to the service
@@ -39,6 +40,7 @@ make elasticsearch-cli
 make redis-cli
 make sqlite-cli
 make sqlserver-cli
+make duckdb-cli
 ```
 
 ### Using playground.sh
@@ -60,6 +62,7 @@ make sqlserver-cli
 ./playground.sh -s redis
 ./playground.sh -s sqlite
 ./playground.sh -s sqlserver
+./playground.sh -s duckdb
 
 # clean up the playground
 ./playground.sh -c
@@ -74,6 +77,7 @@ make sqlserver-cli
 ./playground.sh -c -s mariadb
 ./playground.sh -c -s sqlite
 ./playground.sh -c -s sqlserver
+./playground.sh -c -s duckdb
 ```
 
 You can also ue the `docker-compose` command directly to run the services.
@@ -190,10 +194,11 @@ docker exec -it db_playground_redis redis-cli
 
 ## SQLite
 
-SQLite is embedded, so there is no host or port. The container is seeded with the Northwind dataset at `/data/northwind.db`.
+SQLite is embedded, so there is no host or port. The container is seeded with the Northwind dataset and the database file is also mounted to `./sqlite/data/northwind.db` on the host, so you can open it with any local SQLite client.
 
 ```text
 Database: /data/northwind.db (inside the container)
+File:     ./sqlite/data/northwind.db (on the host)
 Dataset:  northwind
 ```
 
@@ -221,6 +226,22 @@ commands on the database
 
 ```bash
 docker exec -it db_playground_sqlserver /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'Admin@1234' -d northwind -C
+```
+
+## DuckDB
+
+DuckDB is embedded, so there is no host or port. The container is seeded with the Northwind dataset and the database file is also mounted to `./duckdb/data/northwind.db` on the host, so you can open it with any local DuckDB client.
+
+```text
+Database: /data/northwind.db (inside the container)
+File:     ./duckdb/data/northwind.db (on the host)
+Dataset:  northwind
+```
+
+You can use the following command to open a DuckDB shell against the database
+
+```bash
+docker exec -it db_playground_duckdb duckdb /data/northwind.db
 ```
 
 ## Contributing

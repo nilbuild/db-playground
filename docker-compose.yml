@@ -80,6 +80,14 @@ services:
   sqlite:
     build: sqlite
     container_name: db_playground_sqlite
+    volumes:
+      - ./sqlite/data:/data
+
+  duckdb:
+    build: duckdb
+    container_name: db_playground_duckdb
+    volumes:
+      - ./duckdb/data:/data
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest

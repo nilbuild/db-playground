@@ -1,4 +1,4 @@
-.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli
+.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli duckdb duckdb-cli
 
 redis:
 	./playground.sh -s redis
@@ -9,6 +9,11 @@ sqlite:
 	./playground.sh -s sqlite
 sqlite-cli:
 	@docker exec -it db_playground_sqlite sqlite3 /data/northwind.db
+
+duckdb:
+	./playground.sh -s duckdb
+duckdb-cli:
+	@docker exec -it db_playground_duckdb duckdb /data/northwind.db
 
 mongo:
 	./playground.sh -s mongo

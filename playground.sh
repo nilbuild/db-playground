@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | sqlserver | all"
+readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | sqlserver | duckdb | all"
 readonly DOCKER_COMPOSE_FILE="./docker-compose.yml"
 
 require() {
@@ -27,6 +27,7 @@ Examples:
   playground.sh -s redis          # Run redis service
   playground.sh -s sqlite         # Run sqlite service
   playground.sh -s sqlserver      # Run sqlserver service
+  playground.sh -s duckdb         # Run duckdb service
   playground.sh -s all            # Run all services
   playground.sh -c                # Clean up the data only
 EOS
