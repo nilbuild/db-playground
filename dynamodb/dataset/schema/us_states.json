@@ -1,0 +1,16 @@
+{
+  "TableName": "us_states",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "state_id",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "state_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

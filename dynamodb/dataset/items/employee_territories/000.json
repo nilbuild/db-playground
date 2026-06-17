@@ -1,0 +1,304 @@
+{
+  "employee_territories": [
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "1"
+          },
+          "territory_id": {
+            "S": "06897"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "1"
+          },
+          "territory_id": {
+            "S": "19713"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "territory_id": {
+            "S": "01581"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "territory_id": {
+            "S": "01730"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "territory_id": {
+            "S": "01833"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "territory_id": {
+            "S": "02116"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "territory_id": {
+            "S": "02139"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "territory_id": {
+            "S": "02184"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "territory_id": {
+            "S": "40222"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "3"
+          },
+          "territory_id": {
+            "S": "30346"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "3"
+          },
+          "territory_id": {
+            "S": "31406"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "3"
+          },
+          "territory_id": {
+            "S": "32859"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "3"
+          },
+          "territory_id": {
+            "S": "33607"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "4"
+          },
+          "territory_id": {
+            "S": "20852"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "4"
+          },
+          "territory_id": {
+            "S": "27403"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "4"
+          },
+          "territory_id": {
+            "S": "27511"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "territory_id": {
+            "S": "02903"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "territory_id": {
+            "S": "07960"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "territory_id": {
+            "S": "08837"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "territory_id": {
+            "S": "10019"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "territory_id": {
+            "S": "10038"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "territory_id": {
+            "S": "11747"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "territory_id": {
+            "S": "14450"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "6"
+          },
+          "territory_id": {
+            "S": "85014"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "6"
+          },
+          "territory_id": {
+            "S": "85251"
+          }
+        }
+      }
+    }
+  ]
+}

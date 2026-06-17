@@ -1,0 +1,895 @@
+{
+  "customers": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "ALFKI"
+          },
+          "company_name": {
+            "S": "Alfreds Futterkiste"
+          },
+          "contact_name": {
+            "S": "Maria Anders"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Obere Str. 57"
+          },
+          "city": {
+            "S": "Berlin"
+          },
+          "postal_code": {
+            "S": "12209"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "030-0074321"
+          },
+          "fax": {
+            "S": "030-0076545"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "ANATR"
+          },
+          "company_name": {
+            "S": "Ana Trujillo Emparedados y helados"
+          },
+          "contact_name": {
+            "S": "Ana Trujillo"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "Avda. de la Constituci\u00f3n 2222"
+          },
+          "city": {
+            "S": "M\u00e9xico D.F."
+          },
+          "postal_code": {
+            "S": "05021"
+          },
+          "country": {
+            "S": "Mexico"
+          },
+          "phone": {
+            "S": "(5) 555-4729"
+          },
+          "fax": {
+            "S": "(5) 555-3745"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "ANTON"
+          },
+          "company_name": {
+            "S": "Antonio Moreno Taquer\u00eda"
+          },
+          "contact_name": {
+            "S": "Antonio Moreno"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "Mataderos  2312"
+          },
+          "city": {
+            "S": "M\u00e9xico D.F."
+          },
+          "postal_code": {
+            "S": "05023"
+          },
+          "country": {
+            "S": "Mexico"
+          },
+          "phone": {
+            "S": "(5) 555-3932"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "AROUT"
+          },
+          "company_name": {
+            "S": "Around the Horn"
+          },
+          "contact_name": {
+            "S": "Thomas Hardy"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "120 Hanover Sq."
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "WA1 1DP"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "phone": {
+            "S": "(171) 555-7788"
+          },
+          "fax": {
+            "S": "(171) 555-6750"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "BERGS"
+          },
+          "company_name": {
+            "S": "Berglunds snabbk\u00f6p"
+          },
+          "contact_name": {
+            "S": "Christina Berglund"
+          },
+          "contact_title": {
+            "S": "Order Administrator"
+          },
+          "address": {
+            "S": "Berguvsv\u00e4gen  8"
+          },
+          "city": {
+            "S": "Lule\u00e5"
+          },
+          "postal_code": {
+            "S": "S-958 22"
+          },
+          "country": {
+            "S": "Sweden"
+          },
+          "phone": {
+            "S": "0921-12 34 65"
+          },
+          "fax": {
+            "S": "0921-12 34 67"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "BLAUS"
+          },
+          "company_name": {
+            "S": "Blauer See Delikatessen"
+          },
+          "contact_name": {
+            "S": "Hanna Moos"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Forsterstr. 57"
+          },
+          "city": {
+            "S": "Mannheim"
+          },
+          "postal_code": {
+            "S": "68306"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "0621-08460"
+          },
+          "fax": {
+            "S": "0621-08924"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "BLONP"
+          },
+          "company_name": {
+            "S": "Blondesddsl p\u00e8re et fils"
+          },
+          "contact_name": {
+            "S": "Fr\u00e9d\u00e9rique Citeaux"
+          },
+          "contact_title": {
+            "S": "Marketing Manager"
+          },
+          "address": {
+            "S": "24, place Kl\u00e9ber"
+          },
+          "city": {
+            "S": "Strasbourg"
+          },
+          "postal_code": {
+            "S": "67000"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "88.60.15.31"
+          },
+          "fax": {
+            "S": "88.60.15.32"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "BOLID"
+          },
+          "company_name": {
+            "S": "B\u00f3lido Comidas preparadas"
+          },
+          "contact_name": {
+            "S": "Mart\u00edn Sommer"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "C/ Araquil, 67"
+          },
+          "city": {
+            "S": "Madrid"
+          },
+          "postal_code": {
+            "S": "28023"
+          },
+          "country": {
+            "S": "Spain"
+          },
+          "phone": {
+            "S": "(91) 555 22 82"
+          },
+          "fax": {
+            "S": "(91) 555 91 99"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "BONAP"
+          },
+          "company_name": {
+            "S": "Bon app'"
+          },
+          "contact_name": {
+            "S": "Laurence Lebihan"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "12, rue des Bouchers"
+          },
+          "city": {
+            "S": "Marseille"
+          },
+          "postal_code": {
+            "S": "13008"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "91.24.45.40"
+          },
+          "fax": {
+            "S": "91.24.45.41"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "BOTTM"
+          },
+          "company_name": {
+            "S": "Bottom-Dollar Markets"
+          },
+          "contact_name": {
+            "S": "Elizabeth Lincoln"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "23 Tsawassen Blvd."
+          },
+          "city": {
+            "S": "Tsawassen"
+          },
+          "region": {
+            "S": "BC"
+          },
+          "postal_code": {
+            "S": "T2F 8M4"
+          },
+          "country": {
+            "S": "Canada"
+          },
+          "phone": {
+            "S": "(604) 555-4729"
+          },
+          "fax": {
+            "S": "(604) 555-3745"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "BSBEV"
+          },
+          "company_name": {
+            "S": "B's Beverages"
+          },
+          "contact_name": {
+            "S": "Victoria Ashworth"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Fauntleroy Circus"
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "EC2 5NT"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "phone": {
+            "S": "(171) 555-1212"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "CACTU"
+          },
+          "company_name": {
+            "S": "Cactus Comidas para llevar"
+          },
+          "contact_name": {
+            "S": "Patricio Simpson"
+          },
+          "contact_title": {
+            "S": "Sales Agent"
+          },
+          "address": {
+            "S": "Cerrito 333"
+          },
+          "city": {
+            "S": "Buenos Aires"
+          },
+          "postal_code": {
+            "S": "1010"
+          },
+          "country": {
+            "S": "Argentina"
+          },
+          "phone": {
+            "S": "(1) 135-5555"
+          },
+          "fax": {
+            "S": "(1) 135-4892"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "CENTC"
+          },
+          "company_name": {
+            "S": "Centro comercial Moctezuma"
+          },
+          "contact_name": {
+            "S": "Francisco Chang"
+          },
+          "contact_title": {
+            "S": "Marketing Manager"
+          },
+          "address": {
+            "S": "Sierras de Granada 9993"
+          },
+          "city": {
+            "S": "M\u00e9xico D.F."
+          },
+          "postal_code": {
+            "S": "05022"
+          },
+          "country": {
+            "S": "Mexico"
+          },
+          "phone": {
+            "S": "(5) 555-3392"
+          },
+          "fax": {
+            "S": "(5) 555-7293"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "CHOPS"
+          },
+          "company_name": {
+            "S": "Chop-suey Chinese"
+          },
+          "contact_name": {
+            "S": "Yang Wang"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "Hauptstr. 29"
+          },
+          "city": {
+            "S": "Bern"
+          },
+          "postal_code": {
+            "S": "3012"
+          },
+          "country": {
+            "S": "Switzerland"
+          },
+          "phone": {
+            "S": "0452-076545"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "COMMI"
+          },
+          "company_name": {
+            "S": "Com\u00e9rcio Mineiro"
+          },
+          "contact_name": {
+            "S": "Pedro Afonso"
+          },
+          "contact_title": {
+            "S": "Sales Associate"
+          },
+          "address": {
+            "S": "Av. dos Lus\u00edadas, 23"
+          },
+          "city": {
+            "S": "Sao Paulo"
+          },
+          "region": {
+            "S": "SP"
+          },
+          "postal_code": {
+            "S": "05432-043"
+          },
+          "country": {
+            "S": "Brazil"
+          },
+          "phone": {
+            "S": "(11) 555-7647"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "CONSH"
+          },
+          "company_name": {
+            "S": "Consolidated Holdings"
+          },
+          "contact_name": {
+            "S": "Elizabeth Brown"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Berkeley Gardens 12  Brewery"
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "WX1 6LT"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "phone": {
+            "S": "(171) 555-2282"
+          },
+          "fax": {
+            "S": "(171) 555-9199"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "DRACD"
+          },
+          "company_name": {
+            "S": "Drachenblut Delikatessen"
+          },
+          "contact_name": {
+            "S": "Sven Ottlieb"
+          },
+          "contact_title": {
+            "S": "Order Administrator"
+          },
+          "address": {
+            "S": "Walserweg 21"
+          },
+          "city": {
+            "S": "Aachen"
+          },
+          "postal_code": {
+            "S": "52066"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "0241-039123"
+          },
+          "fax": {
+            "S": "0241-059428"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "DUMON"
+          },
+          "company_name": {
+            "S": "Du monde entier"
+          },
+          "contact_name": {
+            "S": "Janine Labrune"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "67, rue des Cinquante Otages"
+          },
+          "city": {
+            "S": "Nantes"
+          },
+          "postal_code": {
+            "S": "44000"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "40.67.88.88"
+          },
+          "fax": {
+            "S": "40.67.89.89"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "EASTC"
+          },
+          "company_name": {
+            "S": "Eastern Connection"
+          },
+          "contact_name": {
+            "S": "Ann Devon"
+          },
+          "contact_title": {
+            "S": "Sales Agent"
+          },
+          "address": {
+            "S": "35 King George"
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "WX3 6FW"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "phone": {
+            "S": "(171) 555-0297"
+          },
+          "fax": {
+            "S": "(171) 555-3373"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "ERNSH"
+          },
+          "company_name": {
+            "S": "Ernst Handel"
+          },
+          "contact_name": {
+            "S": "Roland Mendel"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "Kirchgasse 6"
+          },
+          "city": {
+            "S": "Graz"
+          },
+          "postal_code": {
+            "S": "8010"
+          },
+          "country": {
+            "S": "Austria"
+          },
+          "phone": {
+            "S": "7675-3425"
+          },
+          "fax": {
+            "S": "7675-3426"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "FAMIA"
+          },
+          "company_name": {
+            "S": "Familia Arquibaldo"
+          },
+          "contact_name": {
+            "S": "Aria Cruz"
+          },
+          "contact_title": {
+            "S": "Marketing Assistant"
+          },
+          "address": {
+            "S": "Rua Or\u00f3s, 92"
+          },
+          "city": {
+            "S": "Sao Paulo"
+          },
+          "region": {
+            "S": "SP"
+          },
+          "postal_code": {
+            "S": "05442-030"
+          },
+          "country": {
+            "S": "Brazil"
+          },
+          "phone": {
+            "S": "(11) 555-9857"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "FISSA"
+          },
+          "company_name": {
+            "S": "FISSA Fabrica Inter. Salchichas S.A."
+          },
+          "contact_name": {
+            "S": "Diego Roel"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "C/ Moralzarzal, 86"
+          },
+          "city": {
+            "S": "Madrid"
+          },
+          "postal_code": {
+            "S": "28034"
+          },
+          "country": {
+            "S": "Spain"
+          },
+          "phone": {
+            "S": "(91) 555 94 44"
+          },
+          "fax": {
+            "S": "(91) 555 55 93"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "FOLIG"
+          },
+          "company_name": {
+            "S": "Folies gourmandes"
+          },
+          "contact_name": {
+            "S": "Martine Ranc\u00e9"
+          },
+          "contact_title": {
+            "S": "Assistant Sales Agent"
+          },
+          "address": {
+            "S": "184, chauss\u00e9e de Tournai"
+          },
+          "city": {
+            "S": "Lille"
+          },
+          "postal_code": {
+            "S": "59000"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "20.16.10.16"
+          },
+          "fax": {
+            "S": "20.16.10.17"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "FOLKO"
+          },
+          "company_name": {
+            "S": "Folk och f\u00e4 HB"
+          },
+          "contact_name": {
+            "S": "Maria Larsson"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "\u00c5kergatan 24"
+          },
+          "city": {
+            "S": "Br\u00e4cke"
+          },
+          "postal_code": {
+            "S": "S-844 67"
+          },
+          "country": {
+            "S": "Sweden"
+          },
+          "phone": {
+            "S": "0695-34 67 21"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "FRANK"
+          },
+          "company_name": {
+            "S": "Frankenversand"
+          },
+          "contact_name": {
+            "S": "Peter Franken"
+          },
+          "contact_title": {
+            "S": "Marketing Manager"
+          },
+          "address": {
+            "S": "Berliner Platz 43"
+          },
+          "city": {
+            "S": "M\u00fcnchen"
+          },
+          "postal_code": {
+            "S": "80805"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "089-0877310"
+          },
+          "fax": {
+            "S": "089-0877451"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "orders_by_index": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "ALFKI" },
+          "order_id": { "S": "ORDER#1001" },
+          "order_date": { "S": "2024-01-15" },
+          "status": { "S": "SHIPPED" },
+          "total": { "N": "250.50" },
+          "product_id": { "S": "PROD#A" },
+          "tags": { "SS": ["priority", "gift"] },
+          "items": {
+            "L": [
+              { "M": { "sku": { "S": "PROD#A" }, "qty": { "N": "2" }, "price": { "N": "100.25" } } },
+              { "M": { "sku": { "S": "PROD#B" }, "qty": { "N": "1" }, "price": { "N": "50.00" } } }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "ALFKI" },
+          "order_id": { "S": "ORDER#1002" },
+          "order_date": { "S": "2024-02-20" },
+          "status": { "S": "PENDING" },
+          "total": { "N": "99.99" },
+          "product_id": { "S": "PROD#B" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "ALFKI" },
+          "order_id": { "S": "ORDER#1003" },
+          "order_date": { "S": "2024-03-05" },
+          "status": { "S": "SHIPPED" },
+          "total": { "N": "540.00" },
+          "product_id": { "S": "PROD#A" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "BERGS" },
+          "order_id": { "S": "ORDER#1004" },
+          "order_date": { "S": "2024-01-10" },
+          "status": { "S": "SHIPPED" },
+          "total": { "N": "1200.00" },
+          "product_id": { "S": "PROD#C" },
+          "shipping": {
+            "M": {
+              "carrier": { "S": "DHL" },
+              "address": { "M": { "city": { "S": "Berlin" }, "zip": { "S": "10115" } } }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "BERGS" },
+          "order_id": { "S": "ORDER#1005" },
+          "order_date": { "S": "2024-02-28" },
+          "status": { "S": "CANCELLED" },
+          "total": { "N": "75.25" },
+          "product_id": { "S": "PROD#B" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "CHOPS" },
+          "order_id": { "S": "ORDER#1006" },
+          "order_date": { "S": "2024-01-22" },
+          "status": { "S": "PENDING" },
+          "total": { "N": "320.00" },
+          "product_id": { "S": "PROD#A" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "CHOPS" },
+          "order_id": { "S": "ORDER#1007" },
+          "order_date": { "S": "2024-03-15" },
+          "status": { "S": "SHIPPED" },
+          "total": { "N": "89.90" },
+          "product_id": { "S": "PROD#D" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "DUMON" },
+          "order_id": { "S": "ORDER#1008" },
+          "order_date": { "S": "2024-02-01" },
+          "status": { "S": "DELIVERED" },
+          "total": { "N": "450.75" },
+          "product_id": { "S": "PROD#C" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "DUMON" },
+          "order_id": { "S": "ORDER#1009" },
+          "order_date": { "S": "2024-03-20" },
+          "status": { "S": "DELIVERED" },
+          "total": { "N": "12000.00" },
+          "product_id": { "S": "PROD#A" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": { "S": "EASTC" },
+          "order_id": { "S": "ORDER#1010" },
+          "order_date": { "S": "2024-01-30" },
+          "status": { "S": "PENDING" },
+          "total": { "N": "60.00" }
+        }
+      }
+    }
+  ]
+}

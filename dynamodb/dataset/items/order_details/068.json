@@ -1,0 +1,529 @@
+{
+  "order_details": [
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10898"
+          },
+          "product_id": {
+            "N": "13"
+          },
+          "unit_price": {
+            "N": "6.0"
+          },
+          "quantity": {
+            "N": "5"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10899"
+          },
+          "product_id": {
+            "N": "39"
+          },
+          "unit_price": {
+            "N": "18.0"
+          },
+          "quantity": {
+            "N": "8"
+          },
+          "discount": {
+            "N": "0.150000006"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10900"
+          },
+          "product_id": {
+            "N": "70"
+          },
+          "unit_price": {
+            "N": "15.0"
+          },
+          "quantity": {
+            "N": "3"
+          },
+          "discount": {
+            "N": "0.25"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10901"
+          },
+          "product_id": {
+            "N": "41"
+          },
+          "unit_price": {
+            "N": "9.64999962"
+          },
+          "quantity": {
+            "N": "30"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10901"
+          },
+          "product_id": {
+            "N": "71"
+          },
+          "unit_price": {
+            "N": "21.5"
+          },
+          "quantity": {
+            "N": "30"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10902"
+          },
+          "product_id": {
+            "N": "55"
+          },
+          "unit_price": {
+            "N": "24.0"
+          },
+          "quantity": {
+            "N": "30"
+          },
+          "discount": {
+            "N": "0.150000006"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10902"
+          },
+          "product_id": {
+            "N": "62"
+          },
+          "unit_price": {
+            "N": "49.2999992"
+          },
+          "quantity": {
+            "N": "6"
+          },
+          "discount": {
+            "N": "0.150000006"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10903"
+          },
+          "product_id": {
+            "N": "13"
+          },
+          "unit_price": {
+            "N": "6.0"
+          },
+          "quantity": {
+            "N": "40"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10903"
+          },
+          "product_id": {
+            "N": "65"
+          },
+          "unit_price": {
+            "N": "21.0499992"
+          },
+          "quantity": {
+            "N": "21"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10903"
+          },
+          "product_id": {
+            "N": "68"
+          },
+          "unit_price": {
+            "N": "12.5"
+          },
+          "quantity": {
+            "N": "20"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10904"
+          },
+          "product_id": {
+            "N": "58"
+          },
+          "unit_price": {
+            "N": "13.25"
+          },
+          "quantity": {
+            "N": "15"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10904"
+          },
+          "product_id": {
+            "N": "62"
+          },
+          "unit_price": {
+            "N": "49.2999992"
+          },
+          "quantity": {
+            "N": "35"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10905"
+          },
+          "product_id": {
+            "N": "1"
+          },
+          "unit_price": {
+            "N": "18.0"
+          },
+          "quantity": {
+            "N": "20"
+          },
+          "discount": {
+            "N": "0.0500000007"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10906"
+          },
+          "product_id": {
+            "N": "61"
+          },
+          "unit_price": {
+            "N": "28.5"
+          },
+          "quantity": {
+            "N": "15"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10907"
+          },
+          "product_id": {
+            "N": "75"
+          },
+          "unit_price": {
+            "N": "7.75"
+          },
+          "quantity": {
+            "N": "14"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10908"
+          },
+          "product_id": {
+            "N": "7"
+          },
+          "unit_price": {
+            "N": "30.0"
+          },
+          "quantity": {
+            "N": "20"
+          },
+          "discount": {
+            "N": "0.0500000007"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10908"
+          },
+          "product_id": {
+            "N": "52"
+          },
+          "unit_price": {
+            "N": "7.0"
+          },
+          "quantity": {
+            "N": "14"
+          },
+          "discount": {
+            "N": "0.0500000007"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10909"
+          },
+          "product_id": {
+            "N": "7"
+          },
+          "unit_price": {
+            "N": "30.0"
+          },
+          "quantity": {
+            "N": "12"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10909"
+          },
+          "product_id": {
+            "N": "16"
+          },
+          "unit_price": {
+            "N": "17.4500008"
+          },
+          "quantity": {
+            "N": "15"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10909"
+          },
+          "product_id": {
+            "N": "41"
+          },
+          "unit_price": {
+            "N": "9.64999962"
+          },
+          "quantity": {
+            "N": "5"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10910"
+          },
+          "product_id": {
+            "N": "19"
+          },
+          "unit_price": {
+            "N": "9.19999981"
+          },
+          "quantity": {
+            "N": "12"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10910"
+          },
+          "product_id": {
+            "N": "49"
+          },
+          "unit_price": {
+            "N": "20.0"
+          },
+          "quantity": {
+            "N": "10"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10910"
+          },
+          "product_id": {
+            "N": "61"
+          },
+          "unit_price": {
+            "N": "28.5"
+          },
+          "quantity": {
+            "N": "5"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10911"
+          },
+          "product_id": {
+            "N": "1"
+          },
+          "unit_price": {
+            "N": "18.0"
+          },
+          "quantity": {
+            "N": "10"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "10911"
+          },
+          "product_id": {
+            "N": "17"
+          },
+          "unit_price": {
+            "N": "39.0"
+          },
+          "quantity": {
+            "N": "12"
+          },
+          "discount": {
+            "N": "0.0"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "region": [
+    {
+      "PutRequest": {
+        "Item": {
+          "region_id": {
+            "N": "1"
+          },
+          "region_description": {
+            "S": "Eastern"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "region_id": {
+            "N": "2"
+          },
+          "region_description": {
+            "S": "Western"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "region_id": {
+            "N": "3"
+          },
+          "region_description": {
+            "S": "Northern"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "region_id": {
+            "N": "4"
+          },
+          "region_description": {
+            "S": "Southern"
+          }
+        }
+      }
+    }
+  ]
+}

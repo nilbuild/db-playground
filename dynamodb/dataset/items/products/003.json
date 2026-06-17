@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "76"
+          },
+          "product_name": {
+            "S": "Lakkalik\u00f6\u00f6ri"
+          },
+          "supplier_id": {
+            "N": "23"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "500 ml"
+          },
+          "unit_price": {
+            "N": "18.0"
+          },
+          "units_in_stock": {
+            "N": "57"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "77"
+          },
+          "product_name": {
+            "S": "Original Frankfurter gr\u00fcne So\u00dfe"
+          },
+          "supplier_id": {
+            "N": "12"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "12 boxes"
+          },
+          "unit_price": {
+            "N": "13.0"
+          },
+          "units_in_stock": {
+            "N": "32"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    }
+  ]
+}

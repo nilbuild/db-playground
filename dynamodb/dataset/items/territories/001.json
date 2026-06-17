@@ -1,0 +1,379 @@
+{
+  "territories": [
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "33607"
+          },
+          "territory_description": {
+            "S": "Tampa"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "40222"
+          },
+          "territory_description": {
+            "S": "Louisville"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "44122"
+          },
+          "territory_description": {
+            "S": "Beachwood"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "45839"
+          },
+          "territory_description": {
+            "S": "Findlay"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "48075"
+          },
+          "territory_description": {
+            "S": "Southfield"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "48084"
+          },
+          "territory_description": {
+            "S": "Troy"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "48304"
+          },
+          "territory_description": {
+            "S": "Bloomfield Hills"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "53404"
+          },
+          "territory_description": {
+            "S": "Racine"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "55113"
+          },
+          "territory_description": {
+            "S": "Roseville"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "55439"
+          },
+          "territory_description": {
+            "S": "Minneapolis"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "60179"
+          },
+          "territory_description": {
+            "S": "Hoffman Estates"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "60601"
+          },
+          "territory_description": {
+            "S": "Chicago"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "72716"
+          },
+          "territory_description": {
+            "S": "Bentonville"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "75234"
+          },
+          "territory_description": {
+            "S": "Dallas"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "78759"
+          },
+          "territory_description": {
+            "S": "Austin"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "80202"
+          },
+          "territory_description": {
+            "S": "Denver"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "80909"
+          },
+          "territory_description": {
+            "S": "Colorado Springs"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "85014"
+          },
+          "territory_description": {
+            "S": "Phoenix"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "85251"
+          },
+          "territory_description": {
+            "S": "Scottsdale"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "90405"
+          },
+          "territory_description": {
+            "S": "Santa Monica"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "94025"
+          },
+          "territory_description": {
+            "S": "Menlo Park"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "94105"
+          },
+          "territory_description": {
+            "S": "San Francisco"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "95008"
+          },
+          "territory_description": {
+            "S": "Campbell"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "95054"
+          },
+          "territory_description": {
+            "S": "Santa Clara"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "95060"
+          },
+          "territory_description": {
+            "S": "Santa Cruz"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    }
+  ]
+}

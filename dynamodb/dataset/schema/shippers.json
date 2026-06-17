@@ -1,0 +1,16 @@
+{
+  "TableName": "shippers",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "shipper_id",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "shipper_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

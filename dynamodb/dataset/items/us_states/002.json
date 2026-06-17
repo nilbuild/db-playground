@@ -1,0 +1,22 @@
+{
+  "us_states": [
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "51"
+          },
+          "state_name": {
+            "S": "Wyoming"
+          },
+          "state_abbr": {
+            "S": "WY"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    }
+  ]
+}

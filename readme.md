@@ -5,7 +5,7 @@
 The repository has a simple docker-compose file and a few scripts to set up any database playground with sample data in
 seconds. It is a great way to test your database queries and learn about the database.
 
-You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB and some sample indexes (omdb and shakespeare) in Elasticsearch.
+You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB, DynamoDB and some sample indexes (omdb and shakespeare) in Elasticsearch.
 
 ## Usage
 
@@ -28,6 +28,7 @@ make redis
 make sqlite
 make sqlserver
 make duckdb
+make dynamodb
 ```
 
 Once the service is up, you can run the below command in another terminal to connect to the service
@@ -41,6 +42,7 @@ make redis-cli
 make sqlite-cli
 make sqlserver-cli
 make duckdb-cli
+make dynamodb-cli
 ```
 
 ### Using playground.sh
@@ -63,6 +65,7 @@ make duckdb-cli
 ./playground.sh -s sqlite
 ./playground.sh -s sqlserver
 ./playground.sh -s duckdb
+./playground.sh -s dynamodb
 
 # clean up the playground
 ./playground.sh -c
@@ -78,6 +81,7 @@ make duckdb-cli
 ./playground.sh -c -s sqlite
 ./playground.sh -c -s sqlserver
 ./playground.sh -c -s duckdb
+./playground.sh -c -s dynamodb
 ```
 
 You can also ue the `docker-compose` command directly to run the services.
@@ -243,6 +247,28 @@ You can use the following command to open a DuckDB shell against the database
 ```bash
 docker exec -it db_playground_duckdb duckdb /data/northwind.db
 ```
+
+## DynamoDB
+
+This uses [DynamoDB Local](https://hub.docker.com/r/amazon/dynamodb-local), so it runs entirely on your machine and accepts any credentials. The Northwind tables are seeded as one DynamoDB table per entity (`categories`, `customers`, `orders`, `order_details`, etc.), plus two feature tables (`feature_showcase`, `orders_by_index`) that exercise secondary indexes, every attribute type, streams and TTL. See [`dynamodb/readme.md`](./dynamodb/readme.md) for the full feature coverage and a catalog of PartiQL test queries.
+
+```text
+Host:     localhost
+Port:     8000
+Region:   us-east-1
+AccessKey: local
+SecretKey: local
+```
+
+You can use the [AWS CLI](https://docs.aws.amazon.com/cli/) against the local endpoint to run commands on the database
+
+```bash
+aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+aws dynamodb scan --table-name categories --endpoint-url http://localhost:8000
+```
+
+If you do not have the AWS CLI installed locally, the `make dynamodb-cli` target runs it for you inside a throwaway container.
 
 ## Contributing
 

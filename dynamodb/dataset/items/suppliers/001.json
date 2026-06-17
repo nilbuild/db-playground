@@ -1,0 +1,148 @@
+{
+  "suppliers": [
+    {
+      "PutRequest": {
+        "Item": {
+          "supplier_id": {
+            "N": "26"
+          },
+          "company_name": {
+            "S": "Pasta Buttini s.r.l."
+          },
+          "contact_name": {
+            "S": "Giovanni Giudici"
+          },
+          "contact_title": {
+            "S": "Order Administrator"
+          },
+          "address": {
+            "S": "Via dei Gelsomini, 153"
+          },
+          "city": {
+            "S": "Salerno"
+          },
+          "postal_code": {
+            "S": "84100"
+          },
+          "country": {
+            "S": "Italy"
+          },
+          "phone": {
+            "S": "(089) 6547665"
+          },
+          "fax": {
+            "S": "(089) 6547667"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "supplier_id": {
+            "N": "27"
+          },
+          "company_name": {
+            "S": "Escargots Nouveaux"
+          },
+          "contact_name": {
+            "S": "Marie Delamare"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "22, rue H. Voiron"
+          },
+          "city": {
+            "S": "Montceau"
+          },
+          "postal_code": {
+            "S": "71300"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "85.57.00.07"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "supplier_id": {
+            "N": "28"
+          },
+          "company_name": {
+            "S": "Gai p\u00e2turage"
+          },
+          "contact_name": {
+            "S": "Eliane Noz"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Bat. B 3, rue des Alpes"
+          },
+          "city": {
+            "S": "Annecy"
+          },
+          "postal_code": {
+            "S": "74000"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "38.76.98.06"
+          },
+          "fax": {
+            "S": "38.76.98.58"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "supplier_id": {
+            "N": "29"
+          },
+          "company_name": {
+            "S": "For\u00eats d'\u00e9rables"
+          },
+          "contact_name": {
+            "S": "Chantal Goulet"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "148 rue Chasseur"
+          },
+          "city": {
+            "S": "Ste-Hyacinthe"
+          },
+          "region": {
+            "S": "Qu\u00e9bec"
+          },
+          "postal_code": {
+            "S": "J2S 7S8"
+          },
+          "country": {
+            "S": "Canada"
+          },
+          "phone": {
+            "S": "(514) 555-2955"
+          },
+          "fax": {
+            "S": "(514) 555-2921"
+          }
+        }
+      }
+    }
+  ]
+}

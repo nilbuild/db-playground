@@ -119,9 +119,32 @@ services:
     links:
       - elasticsearch
 
+  dynamodb:
+    image: amazon/dynamodb-local:latest
+    container_name: db_playground_dynamodb
+    user: root
+    command: "-jar DynamoDBLocal.jar -sharedDb -dbPath /home/dynamodblocal/data"
+    volumes:
+      - db_playground_dynamodbdata:/home/dynamodblocal/data
+    ports:
+      - "8000:8000"
+
+  dynamodb-seed:
+    build: dynamodb
+    container_name: db_pg_dynamodb_seed
+    environment:
+      - DB_HOST=dynamodb
+      - DB_PORT=8000
+      - AWS_ACCESS_KEY_ID=local
+      - AWS_SECRET_ACCESS_KEY=local
+      - AWS_DEFAULT_REGION=us-east-1
+    links:
+      - dynamodb
+
 volumes:
   db_playground_pgdata:
   db_playground_mysqldata:
   db_playground_mariadbdata:
   db_playground_mongodata:
   db_playground_sqlserverdata:
+  db_playground_dynamodbdata:

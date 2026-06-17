@@ -1,0 +1,907 @@
+{
+  "customers": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "MEREP"
+          },
+          "company_name": {
+            "S": "M\u00e8re Paillarde"
+          },
+          "contact_name": {
+            "S": "Jean Fresni\u00e8re"
+          },
+          "contact_title": {
+            "S": "Marketing Assistant"
+          },
+          "address": {
+            "S": "43 rue St. Laurent"
+          },
+          "city": {
+            "S": "Montr\u00e9al"
+          },
+          "region": {
+            "S": "Qu\u00e9bec"
+          },
+          "postal_code": {
+            "S": "H1J 1C3"
+          },
+          "country": {
+            "S": "Canada"
+          },
+          "phone": {
+            "S": "(514) 555-8054"
+          },
+          "fax": {
+            "S": "(514) 555-8055"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "MORGK"
+          },
+          "company_name": {
+            "S": "Morgenstern Gesundkost"
+          },
+          "contact_name": {
+            "S": "Alexander Feuer"
+          },
+          "contact_title": {
+            "S": "Marketing Assistant"
+          },
+          "address": {
+            "S": "Heerstr. 22"
+          },
+          "city": {
+            "S": "Leipzig"
+          },
+          "postal_code": {
+            "S": "04179"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "0342-023176"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "NORTS"
+          },
+          "company_name": {
+            "S": "North/South"
+          },
+          "contact_name": {
+            "S": "Simon Crowther"
+          },
+          "contact_title": {
+            "S": "Sales Associate"
+          },
+          "address": {
+            "S": "South House 300 Queensbridge"
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "SW7 1RZ"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "phone": {
+            "S": "(171) 555-7733"
+          },
+          "fax": {
+            "S": "(171) 555-2530"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "OCEAN"
+          },
+          "company_name": {
+            "S": "Oc\u00e9ano Atl\u00e1ntico Ltda."
+          },
+          "contact_name": {
+            "S": "Yvonne Moncada"
+          },
+          "contact_title": {
+            "S": "Sales Agent"
+          },
+          "address": {
+            "S": "Ing. Gustavo Moncada 8585 Piso 20-A"
+          },
+          "city": {
+            "S": "Buenos Aires"
+          },
+          "postal_code": {
+            "S": "1010"
+          },
+          "country": {
+            "S": "Argentina"
+          },
+          "phone": {
+            "S": "(1) 135-5333"
+          },
+          "fax": {
+            "S": "(1) 135-5535"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "OLDWO"
+          },
+          "company_name": {
+            "S": "Old World Delicatessen"
+          },
+          "contact_name": {
+            "S": "Rene Phillips"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "2743 Bering St."
+          },
+          "city": {
+            "S": "Anchorage"
+          },
+          "region": {
+            "S": "AK"
+          },
+          "postal_code": {
+            "S": "99508"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(907) 555-7584"
+          },
+          "fax": {
+            "S": "(907) 555-2880"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "OTTIK"
+          },
+          "company_name": {
+            "S": "Ottilies K\u00e4seladen"
+          },
+          "contact_name": {
+            "S": "Henriette Pfalzheim"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "Mehrheimerstr. 369"
+          },
+          "city": {
+            "S": "K\u00f6ln"
+          },
+          "postal_code": {
+            "S": "50739"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "0221-0644327"
+          },
+          "fax": {
+            "S": "0221-0765721"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "PARIS"
+          },
+          "company_name": {
+            "S": "Paris sp\u00e9cialit\u00e9s"
+          },
+          "contact_name": {
+            "S": "Marie Bertrand"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "265, boulevard Charonne"
+          },
+          "city": {
+            "S": "Paris"
+          },
+          "postal_code": {
+            "S": "75012"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "(1) 42.34.22.66"
+          },
+          "fax": {
+            "S": "(1) 42.34.22.77"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "PERIC"
+          },
+          "company_name": {
+            "S": "Pericles Comidas cl\u00e1sicas"
+          },
+          "contact_name": {
+            "S": "Guillermo Fern\u00e1ndez"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Calle Dr. Jorge Cash 321"
+          },
+          "city": {
+            "S": "M\u00e9xico D.F."
+          },
+          "postal_code": {
+            "S": "05033"
+          },
+          "country": {
+            "S": "Mexico"
+          },
+          "phone": {
+            "S": "(5) 552-3745"
+          },
+          "fax": {
+            "S": "(5) 545-3745"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "PICCO"
+          },
+          "company_name": {
+            "S": "Piccolo und mehr"
+          },
+          "contact_name": {
+            "S": "Georg Pipps"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "Geislweg 14"
+          },
+          "city": {
+            "S": "Salzburg"
+          },
+          "postal_code": {
+            "S": "5020"
+          },
+          "country": {
+            "S": "Austria"
+          },
+          "phone": {
+            "S": "6562-9722"
+          },
+          "fax": {
+            "S": "6562-9723"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "PRINI"
+          },
+          "company_name": {
+            "S": "Princesa Isabel Vinhos"
+          },
+          "contact_name": {
+            "S": "Isabel de Castro"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Estrada da sa\u00fade n. 58"
+          },
+          "city": {
+            "S": "Lisboa"
+          },
+          "postal_code": {
+            "S": "1756"
+          },
+          "country": {
+            "S": "Portugal"
+          },
+          "phone": {
+            "S": "(1) 356-5634"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "QUEDE"
+          },
+          "company_name": {
+            "S": "Que Del\u00edcia"
+          },
+          "contact_name": {
+            "S": "Bernardo Batista"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "Rua da Panificadora, 12"
+          },
+          "city": {
+            "S": "Rio de Janeiro"
+          },
+          "region": {
+            "S": "RJ"
+          },
+          "postal_code": {
+            "S": "02389-673"
+          },
+          "country": {
+            "S": "Brazil"
+          },
+          "phone": {
+            "S": "(21) 555-4252"
+          },
+          "fax": {
+            "S": "(21) 555-4545"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "QUEEN"
+          },
+          "company_name": {
+            "S": "Queen Cozinha"
+          },
+          "contact_name": {
+            "S": "L\u00facia Carvalho"
+          },
+          "contact_title": {
+            "S": "Marketing Assistant"
+          },
+          "address": {
+            "S": "Alameda dos Can\u00e0rios, 891"
+          },
+          "city": {
+            "S": "Sao Paulo"
+          },
+          "region": {
+            "S": "SP"
+          },
+          "postal_code": {
+            "S": "05487-020"
+          },
+          "country": {
+            "S": "Brazil"
+          },
+          "phone": {
+            "S": "(11) 555-1189"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "QUICK"
+          },
+          "company_name": {
+            "S": "QUICK-Stop"
+          },
+          "contact_name": {
+            "S": "Horst Kloss"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "Taucherstra\u00dfe 10"
+          },
+          "city": {
+            "S": "Cunewalde"
+          },
+          "postal_code": {
+            "S": "01307"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "0372-035188"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "RANCH"
+          },
+          "company_name": {
+            "S": "Rancho grande"
+          },
+          "contact_name": {
+            "S": "Sergio Guti\u00e9rrez"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Av. del Libertador 900"
+          },
+          "city": {
+            "S": "Buenos Aires"
+          },
+          "postal_code": {
+            "S": "1010"
+          },
+          "country": {
+            "S": "Argentina"
+          },
+          "phone": {
+            "S": "(1) 123-5555"
+          },
+          "fax": {
+            "S": "(1) 123-5556"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "RATTC"
+          },
+          "company_name": {
+            "S": "Rattlesnake Canyon Grocery"
+          },
+          "contact_name": {
+            "S": "Paula Wilson"
+          },
+          "contact_title": {
+            "S": "Assistant Sales Representative"
+          },
+          "address": {
+            "S": "2817 Milton Dr."
+          },
+          "city": {
+            "S": "Albuquerque"
+          },
+          "region": {
+            "S": "NM"
+          },
+          "postal_code": {
+            "S": "87110"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(505) 555-5939"
+          },
+          "fax": {
+            "S": "(505) 555-3620"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "REGGC"
+          },
+          "company_name": {
+            "S": "Reggiani Caseifici"
+          },
+          "contact_name": {
+            "S": "Maurizio Moroni"
+          },
+          "contact_title": {
+            "S": "Sales Associate"
+          },
+          "address": {
+            "S": "Strada Provinciale 124"
+          },
+          "city": {
+            "S": "Reggio Emilia"
+          },
+          "postal_code": {
+            "S": "42100"
+          },
+          "country": {
+            "S": "Italy"
+          },
+          "phone": {
+            "S": "0522-556721"
+          },
+          "fax": {
+            "S": "0522-556722"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "RICAR"
+          },
+          "company_name": {
+            "S": "Ricardo Adocicados"
+          },
+          "contact_name": {
+            "S": "Janete Limeira"
+          },
+          "contact_title": {
+            "S": "Assistant Sales Agent"
+          },
+          "address": {
+            "S": "Av. Copacabana, 267"
+          },
+          "city": {
+            "S": "Rio de Janeiro"
+          },
+          "region": {
+            "S": "RJ"
+          },
+          "postal_code": {
+            "S": "02389-890"
+          },
+          "country": {
+            "S": "Brazil"
+          },
+          "phone": {
+            "S": "(21) 555-3412"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "RICSU"
+          },
+          "company_name": {
+            "S": "Richter Supermarkt"
+          },
+          "contact_name": {
+            "S": "Michael Holz"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "Grenzacherweg 237"
+          },
+          "city": {
+            "S": "Gen\u00e8ve"
+          },
+          "postal_code": {
+            "S": "1203"
+          },
+          "country": {
+            "S": "Switzerland"
+          },
+          "phone": {
+            "S": "0897-034214"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "ROMEY"
+          },
+          "company_name": {
+            "S": "Romero y tomillo"
+          },
+          "contact_name": {
+            "S": "Alejandra Camino"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "Gran V\u00eda, 1"
+          },
+          "city": {
+            "S": "Madrid"
+          },
+          "postal_code": {
+            "S": "28001"
+          },
+          "country": {
+            "S": "Spain"
+          },
+          "phone": {
+            "S": "(91) 745 6200"
+          },
+          "fax": {
+            "S": "(91) 745 6210"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "SANTG"
+          },
+          "company_name": {
+            "S": "Sant\u00e9 Gourmet"
+          },
+          "contact_name": {
+            "S": "Jonas Bergulfsen"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "Erling Skakkes gate 78"
+          },
+          "city": {
+            "S": "Stavern"
+          },
+          "postal_code": {
+            "S": "4110"
+          },
+          "country": {
+            "S": "Norway"
+          },
+          "phone": {
+            "S": "07-98 92 35"
+          },
+          "fax": {
+            "S": "07-98 92 47"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "SAVEA"
+          },
+          "company_name": {
+            "S": "Save-a-lot Markets"
+          },
+          "contact_name": {
+            "S": "Jose Pavarotti"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "187 Suffolk Ln."
+          },
+          "city": {
+            "S": "Boise"
+          },
+          "region": {
+            "S": "ID"
+          },
+          "postal_code": {
+            "S": "83720"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(208) 555-8097"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "SEVES"
+          },
+          "company_name": {
+            "S": "Seven Seas Imports"
+          },
+          "contact_name": {
+            "S": "Hari Kumar"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "90 Wadhurst Rd."
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "OX15 4NB"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "phone": {
+            "S": "(171) 555-1717"
+          },
+          "fax": {
+            "S": "(171) 555-5646"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "SIMOB"
+          },
+          "company_name": {
+            "S": "Simons bistro"
+          },
+          "contact_name": {
+            "S": "Jytte Petersen"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "Vinb\u00e6ltet 34"
+          },
+          "city": {
+            "S": "Kobenhavn"
+          },
+          "postal_code": {
+            "S": "1734"
+          },
+          "country": {
+            "S": "Denmark"
+          },
+          "phone": {
+            "S": "31 12 34 56"
+          },
+          "fax": {
+            "S": "31 13 35 57"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "SPECD"
+          },
+          "company_name": {
+            "S": "Sp\u00e9cialit\u00e9s du monde"
+          },
+          "contact_name": {
+            "S": "Dominique Perrier"
+          },
+          "contact_title": {
+            "S": "Marketing Manager"
+          },
+          "address": {
+            "S": "25, rue Lauriston"
+          },
+          "city": {
+            "S": "Paris"
+          },
+          "postal_code": {
+            "S": "75016"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "(1) 47.55.60.10"
+          },
+          "fax": {
+            "S": "(1) 47.55.60.20"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "SPLIR"
+          },
+          "company_name": {
+            "S": "Split Rail Beer & Ale"
+          },
+          "contact_name": {
+            "S": "Art Braunschweiger"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "P.O. Box 555"
+          },
+          "city": {
+            "S": "Lander"
+          },
+          "region": {
+            "S": "WY"
+          },
+          "postal_code": {
+            "S": "82520"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(307) 555-4680"
+          },
+          "fax": {
+            "S": "(307) 555-6525"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "TableName": "orders_by_index",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "customer_id",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "order_id",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "order_date",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "status",
+      "AttributeType": "S"
+    },
+    {
+      "AttributeName": "total",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "product_id",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "customer_id",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "order_id",
+      "KeyType": "RANGE"
+    }
+  ],
+  "LocalSecondaryIndexes": [
+    {
+      "IndexName": "by_order_date",
+      "KeySchema": [
+        {
+          "AttributeName": "customer_id",
+          "KeyType": "HASH"
+        },
+        {
+          "AttributeName": "order_date",
+          "KeyType": "RANGE"
+        }
+      ],
+      "Projection": {
+        "ProjectionType": "ALL"
+      }
+    }
+  ],
+  "GlobalSecondaryIndexes": [
+    {
+      "IndexName": "by_status",
+      "KeySchema": [
+        {
+          "AttributeName": "status",
+          "KeyType": "HASH"
+        },
+        {
+          "AttributeName": "total",
+          "KeyType": "RANGE"
+        }
+      ],
+      "Projection": {
+        "ProjectionType": "ALL"
+      }
+    },
+    {
+      "IndexName": "by_product",
+      "KeySchema": [
+        {
+          "AttributeName": "product_id",
+          "KeyType": "HASH"
+        }
+      ],
+      "Projection": {
+        "ProjectionType": "KEYS_ONLY"
+      }
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST",
+  "StreamSpecification": {
+    "StreamEnabled": true,
+    "StreamViewType": "NEW_AND_OLD_IMAGES"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "TableName": "suppliers",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "supplier_id",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "supplier_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

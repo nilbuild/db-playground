@@ -1,0 +1,94 @@
+{
+  "shippers": [
+    {
+      "PutRequest": {
+        "Item": {
+          "shipper_id": {
+            "N": "1"
+          },
+          "company_name": {
+            "S": "Speedy Express"
+          },
+          "phone": {
+            "S": "(503) 555-9831"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "shipper_id": {
+            "N": "2"
+          },
+          "company_name": {
+            "S": "United Package"
+          },
+          "phone": {
+            "S": "(503) 555-3199"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "shipper_id": {
+            "N": "3"
+          },
+          "company_name": {
+            "S": "Federal Shipping"
+          },
+          "phone": {
+            "S": "(503) 555-9931"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "shipper_id": {
+            "N": "4"
+          },
+          "company_name": {
+            "S": "Alliance Shippers"
+          },
+          "phone": {
+            "S": "1-800-222-0451"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "shipper_id": {
+            "N": "5"
+          },
+          "company_name": {
+            "S": "UPS"
+          },
+          "phone": {
+            "S": "1-800-782-7892"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "shipper_id": {
+            "N": "6"
+          },
+          "company_name": {
+            "S": "DHL"
+          },
+          "phone": {
+            "S": "1-800-225-5345"
+          }
+        }
+      }
+    }
+  ]
+}

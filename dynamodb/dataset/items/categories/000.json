@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "1"
+          },
+          "category_name": {
+            "S": "Beverages"
+          },
+          "description": {
+            "S": "Soft drinks, coffees, teas, beers, and ales"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "2"
+          },
+          "category_name": {
+            "S": "Condiments"
+          },
+          "description": {
+            "S": "Sweet and savory sauces, relishes, spreads, and seasonings"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "3"
+          },
+          "category_name": {
+            "S": "Confections"
+          },
+          "description": {
+            "S": "Desserts, candies, and sweet breads"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "4"
+          },
+          "category_name": {
+            "S": "Dairy Products"
+          },
+          "description": {
+            "S": "Cheeses"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "5"
+          },
+          "category_name": {
+            "S": "Grains/Cereals"
+          },
+          "description": {
+            "S": "Breads, crackers, pasta, and cereal"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "6"
+          },
+          "category_name": {
+            "S": "Meat/Poultry"
+          },
+          "description": {
+            "S": "Prepared meats"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "7"
+          },
+          "category_name": {
+            "S": "Produce"
+          },
+          "description": {
+            "S": "Dried fruit and bean curd"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category_id": {
+            "N": "8"
+          },
+          "category_name": {
+            "S": "Seafood"
+          },
+          "description": {
+            "S": "Seaweed and fish"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,904 @@
+{
+  "products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "26"
+          },
+          "product_name": {
+            "S": "Gumb\u00e4r Gummib\u00e4rchen"
+          },
+          "supplier_id": {
+            "N": "11"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "100 - 250 g bags"
+          },
+          "unit_price": {
+            "N": "31.2299995"
+          },
+          "units_in_stock": {
+            "N": "15"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "27"
+          },
+          "product_name": {
+            "S": "Schoggi Schokolade"
+          },
+          "supplier_id": {
+            "N": "11"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "100 - 100 g pieces"
+          },
+          "unit_price": {
+            "N": "43.9000015"
+          },
+          "units_in_stock": {
+            "N": "49"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "28"
+          },
+          "product_name": {
+            "S": "R\u00f6ssle Sauerkraut"
+          },
+          "supplier_id": {
+            "N": "12"
+          },
+          "category_id": {
+            "N": "7"
+          },
+          "quantity_per_unit": {
+            "S": "25 - 825 g cans"
+          },
+          "unit_price": {
+            "N": "45.5999985"
+          },
+          "units_in_stock": {
+            "N": "26"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "29"
+          },
+          "product_name": {
+            "S": "Th\u00fcringer Rostbratwurst"
+          },
+          "supplier_id": {
+            "N": "12"
+          },
+          "category_id": {
+            "N": "6"
+          },
+          "quantity_per_unit": {
+            "S": "50 bags x 30 sausgs."
+          },
+          "unit_price": {
+            "N": "123.790001"
+          },
+          "units_in_stock": {
+            "N": "0"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "30"
+          },
+          "product_name": {
+            "S": "Nord-Ost Matjeshering"
+          },
+          "supplier_id": {
+            "N": "13"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "10 - 200 g glasses"
+          },
+          "unit_price": {
+            "N": "25.8899994"
+          },
+          "units_in_stock": {
+            "N": "10"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "31"
+          },
+          "product_name": {
+            "S": "Gorgonzola Telino"
+          },
+          "supplier_id": {
+            "N": "14"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 100 g pkgs"
+          },
+          "unit_price": {
+            "N": "12.5"
+          },
+          "units_in_stock": {
+            "N": "0"
+          },
+          "units_on_order": {
+            "N": "70"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "32"
+          },
+          "product_name": {
+            "S": "Mascarpone Fabioli"
+          },
+          "supplier_id": {
+            "N": "14"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 200 g pkgs."
+          },
+          "unit_price": {
+            "N": "32.0"
+          },
+          "units_in_stock": {
+            "N": "9"
+          },
+          "units_on_order": {
+            "N": "40"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "33"
+          },
+          "product_name": {
+            "S": "Geitost"
+          },
+          "supplier_id": {
+            "N": "15"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "500 g"
+          },
+          "unit_price": {
+            "N": "2.5"
+          },
+          "units_in_stock": {
+            "N": "112"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "34"
+          },
+          "product_name": {
+            "S": "Sasquatch Ale"
+          },
+          "supplier_id": {
+            "N": "16"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 12 oz bottles"
+          },
+          "unit_price": {
+            "N": "14.0"
+          },
+          "units_in_stock": {
+            "N": "111"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "35"
+          },
+          "product_name": {
+            "S": "Steeleye Stout"
+          },
+          "supplier_id": {
+            "N": "16"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 12 oz bottles"
+          },
+          "unit_price": {
+            "N": "18.0"
+          },
+          "units_in_stock": {
+            "N": "20"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "36"
+          },
+          "product_name": {
+            "S": "Inlagd Sill"
+          },
+          "supplier_id": {
+            "N": "17"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 250 g  jars"
+          },
+          "unit_price": {
+            "N": "19.0"
+          },
+          "units_in_stock": {
+            "N": "112"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "37"
+          },
+          "product_name": {
+            "S": "Gravad lax"
+          },
+          "supplier_id": {
+            "N": "17"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 500 g pkgs."
+          },
+          "unit_price": {
+            "N": "26.0"
+          },
+          "units_in_stock": {
+            "N": "11"
+          },
+          "units_on_order": {
+            "N": "50"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "38"
+          },
+          "product_name": {
+            "S": "C\u00f4te de Blaye"
+          },
+          "supplier_id": {
+            "N": "18"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 75 cl bottles"
+          },
+          "unit_price": {
+            "N": "263.5"
+          },
+          "units_in_stock": {
+            "N": "17"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "39"
+          },
+          "product_name": {
+            "S": "Chartreuse verte"
+          },
+          "supplier_id": {
+            "N": "18"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "750 cc per bottle"
+          },
+          "unit_price": {
+            "N": "18.0"
+          },
+          "units_in_stock": {
+            "N": "69"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "40"
+          },
+          "product_name": {
+            "S": "Boston Crab Meat"
+          },
+          "supplier_id": {
+            "N": "19"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 4 oz tins"
+          },
+          "unit_price": {
+            "N": "18.3999996"
+          },
+          "units_in_stock": {
+            "N": "123"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "41"
+          },
+          "product_name": {
+            "S": "Jack's New England Clam Chowder"
+          },
+          "supplier_id": {
+            "N": "19"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 12 oz cans"
+          },
+          "unit_price": {
+            "N": "9.64999962"
+          },
+          "units_in_stock": {
+            "N": "85"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "10"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "42"
+          },
+          "product_name": {
+            "S": "Singaporean Hokkien Fried Mee"
+          },
+          "supplier_id": {
+            "N": "20"
+          },
+          "category_id": {
+            "N": "5"
+          },
+          "quantity_per_unit": {
+            "S": "32 - 1 kg pkgs."
+          },
+          "unit_price": {
+            "N": "14.0"
+          },
+          "units_in_stock": {
+            "N": "26"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "43"
+          },
+          "product_name": {
+            "S": "Ipoh Coffee"
+          },
+          "supplier_id": {
+            "N": "20"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "16 - 500 g tins"
+          },
+          "unit_price": {
+            "N": "46.0"
+          },
+          "units_in_stock": {
+            "N": "17"
+          },
+          "units_on_order": {
+            "N": "10"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "44"
+          },
+          "product_name": {
+            "S": "Gula Malacca"
+          },
+          "supplier_id": {
+            "N": "20"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "20 - 2 kg bags"
+          },
+          "unit_price": {
+            "N": "19.4500008"
+          },
+          "units_in_stock": {
+            "N": "27"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "45"
+          },
+          "product_name": {
+            "S": "Rogede sild"
+          },
+          "supplier_id": {
+            "N": "21"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "1k pkg."
+          },
+          "unit_price": {
+            "N": "9.5"
+          },
+          "units_in_stock": {
+            "N": "5"
+          },
+          "units_on_order": {
+            "N": "70"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "46"
+          },
+          "product_name": {
+            "S": "Spegesild"
+          },
+          "supplier_id": {
+            "N": "21"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "4 - 450 g glasses"
+          },
+          "unit_price": {
+            "N": "12.0"
+          },
+          "units_in_stock": {
+            "N": "95"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "47"
+          },
+          "product_name": {
+            "S": "Zaanse koeken"
+          },
+          "supplier_id": {
+            "N": "22"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "10 - 4 oz boxes"
+          },
+          "unit_price": {
+            "N": "9.5"
+          },
+          "units_in_stock": {
+            "N": "36"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "48"
+          },
+          "product_name": {
+            "S": "Chocolade"
+          },
+          "supplier_id": {
+            "N": "22"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "10 pkgs."
+          },
+          "unit_price": {
+            "N": "12.75"
+          },
+          "units_in_stock": {
+            "N": "15"
+          },
+          "units_on_order": {
+            "N": "70"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "49"
+          },
+          "product_name": {
+            "S": "Maxilaku"
+          },
+          "supplier_id": {
+            "N": "23"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 50 g pkgs."
+          },
+          "unit_price": {
+            "N": "20.0"
+          },
+          "units_in_stock": {
+            "N": "10"
+          },
+          "units_on_order": {
+            "N": "60"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "50"
+          },
+          "product_name": {
+            "S": "Valkoinen suklaa"
+          },
+          "supplier_id": {
+            "N": "23"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 100 g bars"
+          },
+          "unit_price": {
+            "N": "16.25"
+          },
+          "units_in_stock": {
+            "N": "65"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    }
+  ]
+}

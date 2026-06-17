@@ -1,0 +1,16 @@
+{
+  "TableName": "employees",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "employee_id",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "employee_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

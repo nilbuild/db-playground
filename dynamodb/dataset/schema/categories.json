@@ -1,0 +1,16 @@
+{
+  "TableName": "categories",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "category_id",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "category_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

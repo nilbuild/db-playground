@@ -1,0 +1,134 @@
+{
+  "feature_showcase": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "all-types" },
+          "string_attr": { "S": "hello world" },
+          "number_attr": { "N": "42" },
+          "binary_attr": { "B": "SGVsbG8=" },
+          "bool_true": { "BOOL": true },
+          "bool_false": { "BOOL": false },
+          "null_attr": { "NULL": true },
+          "string_set": { "SS": ["alpha", "beta", "gamma"] },
+          "number_set": { "NS": ["1", "2", "3", "10.5"] },
+          "binary_set": { "BS": ["SGVsbG8=", "V29ybGQ="] },
+          "list_attr": {
+            "L": [
+              { "S": "text" },
+              { "N": "99" },
+              { "BOOL": true },
+              { "NULL": true },
+              { "M": { "nested_key": { "S": "nested_value" } } }
+            ]
+          },
+          "map_attr": {
+            "M": {
+              "inner_string": { "S": "value" },
+              "inner_number": { "N": "7" },
+              "inner_list": { "L": [{ "N": "1" }, { "N": "2" }] }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "deeply-nested" },
+          "level_1": {
+            "M": {
+              "level_2": {
+                "M": {
+                  "level_3": {
+                    "L": [
+                      { "M": { "leaf": { "S": "bottom" }, "count": { "N": "3" } } },
+                      { "L": [{ "BOOL": false }, { "NULL": true }] }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "numbers-precision" },
+          "max_precision_int": { "N": "99999999999999999999999999999999999999" },
+          "high_precision_decimal": { "N": "0.12345678901234567890123456789012345678" },
+          "negative": { "N": "-273.15" },
+          "zero": { "N": "0" },
+          "large_positive": { "N": "150000000000000000000" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "reserved-words" },
+          "name": { "S": "Reserved Word Row" },
+          "status": { "S": "ACTIVE" },
+          "timestamp": { "N": "1700000000" },
+          "size": { "N": "100" },
+          "value": { "S": "some value" },
+          "region": { "S": "us-east-1" },
+          "year": { "N": "2024" },
+          "comment": { "S": "comment text" },
+          "data": { "S": "data field" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "unicode-and-empty" },
+          "emoji": { "S": "🚀🎉 日本語 Ñoño" },
+          "empty_string": { "S": "" },
+          "empty_list": { "L": [] },
+          "empty_map": { "M": {} }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "sparse-a" },
+          "only_on_a": { "S": "A-specific" },
+          "shared": { "S": "x" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "sparse-b" },
+          "only_on_b": { "N": "5" },
+          "shared": { "S": "y" },
+          "extra_bool": { "BOOL": true }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "booleans-and-nulls" },
+          "is_active": { "BOOL": true },
+          "is_deleted": { "BOOL": false },
+          "maybe": { "NULL": true }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "ttl-demo" },
+          "label": { "S": "expires in the far future" },
+          "ttl": { "N": "4102444800" }
+        }
+      }
+    }
+  ]
+}

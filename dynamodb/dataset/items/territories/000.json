@@ -1,0 +1,379 @@
+{
+  "territories": [
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "01581"
+          },
+          "territory_description": {
+            "S": "Westboro"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "01730"
+          },
+          "territory_description": {
+            "S": "Bedford"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "01833"
+          },
+          "territory_description": {
+            "S": "Georgetow"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "02116"
+          },
+          "territory_description": {
+            "S": "Boston"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "02139"
+          },
+          "territory_description": {
+            "S": "Cambridge"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "02184"
+          },
+          "territory_description": {
+            "S": "Braintree"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "02903"
+          },
+          "territory_description": {
+            "S": "Providence"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "03049"
+          },
+          "territory_description": {
+            "S": "Hollis"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "03801"
+          },
+          "territory_description": {
+            "S": "Portsmouth"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "06897"
+          },
+          "territory_description": {
+            "S": "Wilton"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "07960"
+          },
+          "territory_description": {
+            "S": "Morristown"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "08837"
+          },
+          "territory_description": {
+            "S": "Edison"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "10019"
+          },
+          "territory_description": {
+            "S": "New York"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "10038"
+          },
+          "territory_description": {
+            "S": "New York"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "11747"
+          },
+          "territory_description": {
+            "S": "Mellvile"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "14450"
+          },
+          "territory_description": {
+            "S": "Fairport"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "19428"
+          },
+          "territory_description": {
+            "S": "Philadelphia"
+          },
+          "region_id": {
+            "N": "3"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "19713"
+          },
+          "territory_description": {
+            "S": "Neward"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "20852"
+          },
+          "territory_description": {
+            "S": "Rockville"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "27403"
+          },
+          "territory_description": {
+            "S": "Greensboro"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "27511"
+          },
+          "territory_description": {
+            "S": "Cary"
+          },
+          "region_id": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "29202"
+          },
+          "territory_description": {
+            "S": "Columbia"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "30346"
+          },
+          "territory_description": {
+            "S": "Atlanta"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "31406"
+          },
+          "territory_description": {
+            "S": "Savannah"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "32859"
+          },
+          "territory_description": {
+            "S": "Orlando"
+          },
+          "region_id": {
+            "N": "4"
+          }
+        }
+      }
+    }
+  ]
+}

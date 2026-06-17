@@ -1,0 +1,454 @@
+{
+  "us_states": [
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "26"
+          },
+          "state_name": {
+            "S": "Missouri"
+          },
+          "state_abbr": {
+            "S": "MO"
+          },
+          "state_region": {
+            "S": "south"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "27"
+          },
+          "state_name": {
+            "S": "Montana"
+          },
+          "state_abbr": {
+            "S": "MT"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "28"
+          },
+          "state_name": {
+            "S": "Nebraska"
+          },
+          "state_abbr": {
+            "S": "NE"
+          },
+          "state_region": {
+            "S": "midwest"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "29"
+          },
+          "state_name": {
+            "S": "Nevada"
+          },
+          "state_abbr": {
+            "S": "NV"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "30"
+          },
+          "state_name": {
+            "S": "New Hampshire"
+          },
+          "state_abbr": {
+            "S": "NH"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "31"
+          },
+          "state_name": {
+            "S": "New Jersey"
+          },
+          "state_abbr": {
+            "S": "NJ"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "32"
+          },
+          "state_name": {
+            "S": "New Mexico"
+          },
+          "state_abbr": {
+            "S": "NM"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "33"
+          },
+          "state_name": {
+            "S": "New York"
+          },
+          "state_abbr": {
+            "S": "NY"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "34"
+          },
+          "state_name": {
+            "S": "North Carolina"
+          },
+          "state_abbr": {
+            "S": "NC"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "35"
+          },
+          "state_name": {
+            "S": "North Dakota"
+          },
+          "state_abbr": {
+            "S": "ND"
+          },
+          "state_region": {
+            "S": "midwest"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "36"
+          },
+          "state_name": {
+            "S": "Ohio"
+          },
+          "state_abbr": {
+            "S": "OH"
+          },
+          "state_region": {
+            "S": "midwest"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "37"
+          },
+          "state_name": {
+            "S": "Oklahoma"
+          },
+          "state_abbr": {
+            "S": "OK"
+          },
+          "state_region": {
+            "S": "midwest"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "38"
+          },
+          "state_name": {
+            "S": "Oregon"
+          },
+          "state_abbr": {
+            "S": "OR"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "39"
+          },
+          "state_name": {
+            "S": "Pennsylvania"
+          },
+          "state_abbr": {
+            "S": "PA"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "40"
+          },
+          "state_name": {
+            "S": "Rhode Island"
+          },
+          "state_abbr": {
+            "S": "RI"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "41"
+          },
+          "state_name": {
+            "S": "South Carolina"
+          },
+          "state_abbr": {
+            "S": "SC"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "42"
+          },
+          "state_name": {
+            "S": "South Dakota"
+          },
+          "state_abbr": {
+            "S": "SD"
+          },
+          "state_region": {
+            "S": "midwest"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "43"
+          },
+          "state_name": {
+            "S": "Tennessee"
+          },
+          "state_abbr": {
+            "S": "TN"
+          },
+          "state_region": {
+            "S": "midwest"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "44"
+          },
+          "state_name": {
+            "S": "Texas"
+          },
+          "state_abbr": {
+            "S": "TX"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "45"
+          },
+          "state_name": {
+            "S": "Utah"
+          },
+          "state_abbr": {
+            "S": "UT"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "46"
+          },
+          "state_name": {
+            "S": "Vermont"
+          },
+          "state_abbr": {
+            "S": "VT"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "47"
+          },
+          "state_name": {
+            "S": "Virginia"
+          },
+          "state_abbr": {
+            "S": "VA"
+          },
+          "state_region": {
+            "S": "east"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "48"
+          },
+          "state_name": {
+            "S": "Washington"
+          },
+          "state_abbr": {
+            "S": "WA"
+          },
+          "state_region": {
+            "S": "west"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "49"
+          },
+          "state_name": {
+            "S": "West Virginia"
+          },
+          "state_abbr": {
+            "S": "WV"
+          },
+          "state_region": {
+            "S": "south"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "state_id": {
+            "N": "50"
+          },
+          "state_name": {
+            "S": "Wisconsin"
+          },
+          "state_abbr": {
+            "S": "WI"
+          },
+          "state_region": {
+            "S": "midwest"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "TableName": "order_details",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "order_id",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "product_id",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "order_id",
+      "KeyType": "HASH"
+    },
+    {
+      "AttributeName": "product_id",
+      "KeyType": "RANGE"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

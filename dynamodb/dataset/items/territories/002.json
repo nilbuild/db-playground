@@ -1,0 +1,49 @@
+{
+  "territories": [
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "98004"
+          },
+          "territory_description": {
+            "S": "Bellevue"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "98052"
+          },
+          "territory_description": {
+            "S": "Redmond"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "territory_id": {
+            "S": "98104"
+          },
+          "territory_description": {
+            "S": "Seattle"
+          },
+          "region_id": {
+            "N": "2"
+          }
+        }
+      }
+    }
+  ]
+}

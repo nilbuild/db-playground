@@ -1,0 +1,904 @@
+{
+  "products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "1"
+          },
+          "product_name": {
+            "S": "Chai"
+          },
+          "supplier_id": {
+            "N": "8"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "10 boxes x 30 bags"
+          },
+          "unit_price": {
+            "N": "18.0"
+          },
+          "units_in_stock": {
+            "N": "39"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "10"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "2"
+          },
+          "product_name": {
+            "S": "Chang"
+          },
+          "supplier_id": {
+            "N": "1"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 12 oz bottles"
+          },
+          "unit_price": {
+            "N": "19.0"
+          },
+          "units_in_stock": {
+            "N": "17"
+          },
+          "units_on_order": {
+            "N": "40"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "3"
+          },
+          "product_name": {
+            "S": "Aniseed Syrup"
+          },
+          "supplier_id": {
+            "N": "1"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 550 ml bottles"
+          },
+          "unit_price": {
+            "N": "10.0"
+          },
+          "units_in_stock": {
+            "N": "13"
+          },
+          "units_on_order": {
+            "N": "70"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "4"
+          },
+          "product_name": {
+            "S": "Chef Anton's Cajun Seasoning"
+          },
+          "supplier_id": {
+            "N": "2"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "48 - 6 oz jars"
+          },
+          "unit_price": {
+            "N": "22.0"
+          },
+          "units_in_stock": {
+            "N": "53"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "5"
+          },
+          "product_name": {
+            "S": "Chef Anton's Gumbo Mix"
+          },
+          "supplier_id": {
+            "N": "2"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "36 boxes"
+          },
+          "unit_price": {
+            "N": "21.3500004"
+          },
+          "units_in_stock": {
+            "N": "0"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "6"
+          },
+          "product_name": {
+            "S": "Grandma's Boysenberry Spread"
+          },
+          "supplier_id": {
+            "N": "3"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 8 oz jars"
+          },
+          "unit_price": {
+            "N": "25.0"
+          },
+          "units_in_stock": {
+            "N": "120"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "7"
+          },
+          "product_name": {
+            "S": "Uncle Bob's Organic Dried Pears"
+          },
+          "supplier_id": {
+            "N": "3"
+          },
+          "category_id": {
+            "N": "7"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 1 lb pkgs."
+          },
+          "unit_price": {
+            "N": "30.0"
+          },
+          "units_in_stock": {
+            "N": "15"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "10"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "8"
+          },
+          "product_name": {
+            "S": "Northwoods Cranberry Sauce"
+          },
+          "supplier_id": {
+            "N": "3"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 12 oz jars"
+          },
+          "unit_price": {
+            "N": "40.0"
+          },
+          "units_in_stock": {
+            "N": "6"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "9"
+          },
+          "product_name": {
+            "S": "Mishi Kobe Niku"
+          },
+          "supplier_id": {
+            "N": "4"
+          },
+          "category_id": {
+            "N": "6"
+          },
+          "quantity_per_unit": {
+            "S": "18 - 500 g pkgs."
+          },
+          "unit_price": {
+            "N": "97.0"
+          },
+          "units_in_stock": {
+            "N": "29"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "10"
+          },
+          "product_name": {
+            "S": "Ikura"
+          },
+          "supplier_id": {
+            "N": "4"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 200 ml jars"
+          },
+          "unit_price": {
+            "N": "31.0"
+          },
+          "units_in_stock": {
+            "N": "31"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "11"
+          },
+          "product_name": {
+            "S": "Queso Cabrales"
+          },
+          "supplier_id": {
+            "N": "5"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "1 kg pkg."
+          },
+          "unit_price": {
+            "N": "21.0"
+          },
+          "units_in_stock": {
+            "N": "22"
+          },
+          "units_on_order": {
+            "N": "30"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "12"
+          },
+          "product_name": {
+            "S": "Queso Manchego La Pastora"
+          },
+          "supplier_id": {
+            "N": "5"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "10 - 500 g pkgs."
+          },
+          "unit_price": {
+            "N": "38.0"
+          },
+          "units_in_stock": {
+            "N": "86"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "13"
+          },
+          "product_name": {
+            "S": "Konbu"
+          },
+          "supplier_id": {
+            "N": "6"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "2 kg box"
+          },
+          "unit_price": {
+            "N": "6.0"
+          },
+          "units_in_stock": {
+            "N": "24"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "14"
+          },
+          "product_name": {
+            "S": "Tofu"
+          },
+          "supplier_id": {
+            "N": "6"
+          },
+          "category_id": {
+            "N": "7"
+          },
+          "quantity_per_unit": {
+            "S": "40 - 100 g pkgs."
+          },
+          "unit_price": {
+            "N": "23.25"
+          },
+          "units_in_stock": {
+            "N": "35"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "15"
+          },
+          "product_name": {
+            "S": "Genen Shouyu"
+          },
+          "supplier_id": {
+            "N": "6"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 250 ml bottles"
+          },
+          "unit_price": {
+            "N": "13.0"
+          },
+          "units_in_stock": {
+            "N": "39"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "16"
+          },
+          "product_name": {
+            "S": "Pavlova"
+          },
+          "supplier_id": {
+            "N": "7"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "32 - 500 g boxes"
+          },
+          "unit_price": {
+            "N": "17.4500008"
+          },
+          "units_in_stock": {
+            "N": "29"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "10"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "17"
+          },
+          "product_name": {
+            "S": "Alice Mutton"
+          },
+          "supplier_id": {
+            "N": "7"
+          },
+          "category_id": {
+            "N": "6"
+          },
+          "quantity_per_unit": {
+            "S": "20 - 1 kg tins"
+          },
+          "unit_price": {
+            "N": "39.0"
+          },
+          "units_in_stock": {
+            "N": "0"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "18"
+          },
+          "product_name": {
+            "S": "Carnarvon Tigers"
+          },
+          "supplier_id": {
+            "N": "7"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "16 kg pkg."
+          },
+          "unit_price": {
+            "N": "62.5"
+          },
+          "units_in_stock": {
+            "N": "42"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "19"
+          },
+          "product_name": {
+            "S": "Teatime Chocolate Biscuits"
+          },
+          "supplier_id": {
+            "N": "8"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "10 boxes x 12 pieces"
+          },
+          "unit_price": {
+            "N": "9.19999981"
+          },
+          "units_in_stock": {
+            "N": "25"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "20"
+          },
+          "product_name": {
+            "S": "Sir Rodney's Marmalade"
+          },
+          "supplier_id": {
+            "N": "8"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "30 gift boxes"
+          },
+          "unit_price": {
+            "N": "81.0"
+          },
+          "units_in_stock": {
+            "N": "40"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "21"
+          },
+          "product_name": {
+            "S": "Sir Rodney's Scones"
+          },
+          "supplier_id": {
+            "N": "8"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "24 pkgs. x 4 pieces"
+          },
+          "unit_price": {
+            "N": "10.0"
+          },
+          "units_in_stock": {
+            "N": "3"
+          },
+          "units_on_order": {
+            "N": "40"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "22"
+          },
+          "product_name": {
+            "S": "Gustaf's Kn\u00e4ckebr\u00f6d"
+          },
+          "supplier_id": {
+            "N": "9"
+          },
+          "category_id": {
+            "N": "5"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 500 g pkgs."
+          },
+          "unit_price": {
+            "N": "21.0"
+          },
+          "units_in_stock": {
+            "N": "104"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "23"
+          },
+          "product_name": {
+            "S": "Tunnbr\u00f6d"
+          },
+          "supplier_id": {
+            "N": "9"
+          },
+          "category_id": {
+            "N": "5"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 250 g pkgs."
+          },
+          "unit_price": {
+            "N": "9.0"
+          },
+          "units_in_stock": {
+            "N": "61"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "24"
+          },
+          "product_name": {
+            "S": "Guaran\u00e1 Fant\u00e1stica"
+          },
+          "supplier_id": {
+            "N": "10"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "12 - 355 ml cans"
+          },
+          "unit_price": {
+            "N": "4.5"
+          },
+          "units_in_stock": {
+            "N": "20"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "25"
+          },
+          "product_name": {
+            "S": "NuNuCa Nu\u00df-Nougat-Creme"
+          },
+          "supplier_id": {
+            "N": "11"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "20 - 450 g glasses"
+          },
+          "unit_price": {
+            "N": "14.0"
+          },
+          "units_in_stock": {
+            "N": "76"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    }
+  ]
+}

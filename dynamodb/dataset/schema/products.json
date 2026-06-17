@@ -1,0 +1,16 @@
+{
+  "TableName": "products",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "product_id",
+      "AttributeType": "N"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "product_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

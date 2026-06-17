@@ -1,0 +1,502 @@
+{
+  "employees": [
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "1"
+          },
+          "last_name": {
+            "S": "Davolio"
+          },
+          "first_name": {
+            "S": "Nancy"
+          },
+          "title": {
+            "S": "Sales Representative"
+          },
+          "title_of_courtesy": {
+            "S": "Ms."
+          },
+          "birth_date": {
+            "S": "1948-12-08"
+          },
+          "hire_date": {
+            "S": "1992-05-01"
+          },
+          "address": {
+            "S": "507 - 20th Ave. E.\\nApt. 2A"
+          },
+          "city": {
+            "S": "Seattle"
+          },
+          "region": {
+            "S": "WA"
+          },
+          "postal_code": {
+            "S": "98122"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "home_phone": {
+            "S": "(206) 555-9857"
+          },
+          "extension": {
+            "S": "5467"
+          },
+          "notes": {
+            "S": "Education includes a BA in psychology from Colorado State University in 1970.  She also completed The Art of the Cold Call.  Nancy is a member of Toastmasters International."
+          },
+          "reports_to": {
+            "N": "2"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/davolio.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "2"
+          },
+          "last_name": {
+            "S": "Fuller"
+          },
+          "first_name": {
+            "S": "Andrew"
+          },
+          "title": {
+            "S": "Vice President, Sales"
+          },
+          "title_of_courtesy": {
+            "S": "Dr."
+          },
+          "birth_date": {
+            "S": "1952-02-19"
+          },
+          "hire_date": {
+            "S": "1992-08-14"
+          },
+          "address": {
+            "S": "908 W. Capital Way"
+          },
+          "city": {
+            "S": "Tacoma"
+          },
+          "region": {
+            "S": "WA"
+          },
+          "postal_code": {
+            "S": "98401"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "home_phone": {
+            "S": "(206) 555-9482"
+          },
+          "extension": {
+            "S": "3457"
+          },
+          "notes": {
+            "S": "Andrew received his BTS commercial in 1974 and a Ph.D. in international marketing from the University of Dallas in 1981.  He is fluent in French and Italian and reads German.  He joined the company as a sales representative, was promoted to sales manager in January 1992 and to vice president of sales in March 1993.  Andrew is a member of the Sales Management Roundtable, the Seattle Chamber of Commerce, and the Pacific Rim Importers Association."
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/fuller.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "3"
+          },
+          "last_name": {
+            "S": "Leverling"
+          },
+          "first_name": {
+            "S": "Janet"
+          },
+          "title": {
+            "S": "Sales Representative"
+          },
+          "title_of_courtesy": {
+            "S": "Ms."
+          },
+          "birth_date": {
+            "S": "1963-08-30"
+          },
+          "hire_date": {
+            "S": "1992-04-01"
+          },
+          "address": {
+            "S": "722 Moss Bay Blvd."
+          },
+          "city": {
+            "S": "Kirkland"
+          },
+          "region": {
+            "S": "WA"
+          },
+          "postal_code": {
+            "S": "98033"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "home_phone": {
+            "S": "(206) 555-3412"
+          },
+          "extension": {
+            "S": "3355"
+          },
+          "notes": {
+            "S": "Janet has a BS degree in chemistry from Boston College (1984).  She has also completed a certificate program in food retailing management.  Janet was hired as a sales associate in 1991 and promoted to sales representative in February 1992."
+          },
+          "reports_to": {
+            "N": "2"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/leverling.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "4"
+          },
+          "last_name": {
+            "S": "Peacock"
+          },
+          "first_name": {
+            "S": "Margaret"
+          },
+          "title": {
+            "S": "Sales Representative"
+          },
+          "title_of_courtesy": {
+            "S": "Mrs."
+          },
+          "birth_date": {
+            "S": "1937-09-19"
+          },
+          "hire_date": {
+            "S": "1993-05-03"
+          },
+          "address": {
+            "S": "4110 Old Redmond Rd."
+          },
+          "city": {
+            "S": "Redmond"
+          },
+          "region": {
+            "S": "WA"
+          },
+          "postal_code": {
+            "S": "98052"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "home_phone": {
+            "S": "(206) 555-8122"
+          },
+          "extension": {
+            "S": "5176"
+          },
+          "notes": {
+            "S": "Margaret holds a BA in English literature from Concordia College (1958) and an MA from the American Institute of Culinary Arts (1966).  She was assigned to the London office temporarily from July through November 1992."
+          },
+          "reports_to": {
+            "N": "2"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/peacock.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "5"
+          },
+          "last_name": {
+            "S": "Buchanan"
+          },
+          "first_name": {
+            "S": "Steven"
+          },
+          "title": {
+            "S": "Sales Manager"
+          },
+          "title_of_courtesy": {
+            "S": "Mr."
+          },
+          "birth_date": {
+            "S": "1955-03-04"
+          },
+          "hire_date": {
+            "S": "1993-10-17"
+          },
+          "address": {
+            "S": "14 Garrett Hill"
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "SW1 8JR"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "home_phone": {
+            "S": "(71) 555-4848"
+          },
+          "extension": {
+            "S": "3453"
+          },
+          "notes": {
+            "S": "Steven Buchanan graduated from St. Andrews University, Scotland, with a BSC degree in 1976.  Upon joining the company as a sales representative in 1992, he spent 6 months in an orientation program at the Seattle office and then returned to his permanent post in London.  He was promoted to sales manager in March 1993.  Mr. Buchanan has completed the courses Successful Telemarketing and International Sales Management.  He is fluent in French."
+          },
+          "reports_to": {
+            "N": "2"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/buchanan.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "6"
+          },
+          "last_name": {
+            "S": "Suyama"
+          },
+          "first_name": {
+            "S": "Michael"
+          },
+          "title": {
+            "S": "Sales Representative"
+          },
+          "title_of_courtesy": {
+            "S": "Mr."
+          },
+          "birth_date": {
+            "S": "1963-07-02"
+          },
+          "hire_date": {
+            "S": "1993-10-17"
+          },
+          "address": {
+            "S": "Coventry House\\nMiner Rd."
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "EC2 7JR"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "home_phone": {
+            "S": "(71) 555-7773"
+          },
+          "extension": {
+            "S": "428"
+          },
+          "notes": {
+            "S": "Michael is a graduate of Sussex University (MA, economics, 1983) and the University of California at Los Angeles (MBA, marketing, 1986).  He has also taken the courses Multi-Cultural Selling and Time Management for the Sales Professional.  He is fluent in Japanese and can read and write French, Portuguese, and Spanish."
+          },
+          "reports_to": {
+            "N": "5"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/davolio.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "7"
+          },
+          "last_name": {
+            "S": "King"
+          },
+          "first_name": {
+            "S": "Robert"
+          },
+          "title": {
+            "S": "Sales Representative"
+          },
+          "title_of_courtesy": {
+            "S": "Mr."
+          },
+          "birth_date": {
+            "S": "1960-05-29"
+          },
+          "hire_date": {
+            "S": "1994-01-02"
+          },
+          "address": {
+            "S": "Edgeham Hollow\\nWinchester Way"
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "RG1 9SP"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "home_phone": {
+            "S": "(71) 555-5598"
+          },
+          "extension": {
+            "S": "465"
+          },
+          "notes": {
+            "S": "Robert King served in the Peace Corps and traveled extensively before completing his degree in English at the University of Michigan in 1992, the year he joined the company.  After completing a course entitled Selling in Europe, he was transferred to the London office in March 1993."
+          },
+          "reports_to": {
+            "N": "5"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/davolio.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "8"
+          },
+          "last_name": {
+            "S": "Callahan"
+          },
+          "first_name": {
+            "S": "Laura"
+          },
+          "title": {
+            "S": "Inside Sales Coordinator"
+          },
+          "title_of_courtesy": {
+            "S": "Ms."
+          },
+          "birth_date": {
+            "S": "1958-01-09"
+          },
+          "hire_date": {
+            "S": "1994-03-05"
+          },
+          "address": {
+            "S": "4726 - 11th Ave. N.E."
+          },
+          "city": {
+            "S": "Seattle"
+          },
+          "region": {
+            "S": "WA"
+          },
+          "postal_code": {
+            "S": "98105"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "home_phone": {
+            "S": "(206) 555-1189"
+          },
+          "extension": {
+            "S": "2344"
+          },
+          "notes": {
+            "S": "Laura received a BA in psychology from the University of Washington.  She has also completed a course in business French.  She reads and writes French."
+          },
+          "reports_to": {
+            "N": "2"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/davolio.bmp"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "employee_id": {
+            "N": "9"
+          },
+          "last_name": {
+            "S": "Dodsworth"
+          },
+          "first_name": {
+            "S": "Anne"
+          },
+          "title": {
+            "S": "Sales Representative"
+          },
+          "title_of_courtesy": {
+            "S": "Ms."
+          },
+          "birth_date": {
+            "S": "1966-01-27"
+          },
+          "hire_date": {
+            "S": "1994-11-15"
+          },
+          "address": {
+            "S": "7 Houndstooth Rd."
+          },
+          "city": {
+            "S": "London"
+          },
+          "postal_code": {
+            "S": "WG2 7LT"
+          },
+          "country": {
+            "S": "UK"
+          },
+          "home_phone": {
+            "S": "(71) 555-4444"
+          },
+          "extension": {
+            "S": "452"
+          },
+          "notes": {
+            "S": "Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German."
+          },
+          "reports_to": {
+            "N": "5"
+          },
+          "photo_path": {
+            "S": "http://accweb/emmployees/davolio.bmp"
+          }
+        }
+      }
+    }
+  ]
+}

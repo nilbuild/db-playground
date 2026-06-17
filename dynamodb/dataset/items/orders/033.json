@@ -1,0 +1,217 @@
+{
+  "orders": [
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "11073"
+          },
+          "customer_id": {
+            "S": "PERIC"
+          },
+          "employee_id": {
+            "N": "2"
+          },
+          "order_date": {
+            "S": "1998-05-05"
+          },
+          "required_date": {
+            "S": "1998-06-02"
+          },
+          "ship_via": {
+            "N": "2"
+          },
+          "freight": {
+            "N": "24.9500008"
+          },
+          "ship_name": {
+            "S": "Pericles Comidas cl\u00e1sicas"
+          },
+          "ship_address": {
+            "S": "Calle Dr. Jorge Cash 321"
+          },
+          "ship_city": {
+            "S": "M\u00e9xico D.F."
+          },
+          "ship_postal_code": {
+            "S": "05033"
+          },
+          "ship_country": {
+            "S": "Mexico"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "11074"
+          },
+          "customer_id": {
+            "S": "SIMOB"
+          },
+          "employee_id": {
+            "N": "7"
+          },
+          "order_date": {
+            "S": "1998-05-06"
+          },
+          "required_date": {
+            "S": "1998-06-03"
+          },
+          "ship_via": {
+            "N": "2"
+          },
+          "freight": {
+            "N": "18.4400005"
+          },
+          "ship_name": {
+            "S": "Simons bistro"
+          },
+          "ship_address": {
+            "S": "Vinb\u00e6ltet 34"
+          },
+          "ship_city": {
+            "S": "Kobenhavn"
+          },
+          "ship_postal_code": {
+            "S": "1734"
+          },
+          "ship_country": {
+            "S": "Denmark"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "11075"
+          },
+          "customer_id": {
+            "S": "RICSU"
+          },
+          "employee_id": {
+            "N": "8"
+          },
+          "order_date": {
+            "S": "1998-05-06"
+          },
+          "required_date": {
+            "S": "1998-06-03"
+          },
+          "ship_via": {
+            "N": "2"
+          },
+          "freight": {
+            "N": "6.19000006"
+          },
+          "ship_name": {
+            "S": "Richter Supermarkt"
+          },
+          "ship_address": {
+            "S": "Starenweg 5"
+          },
+          "ship_city": {
+            "S": "Gen\u00e8ve"
+          },
+          "ship_postal_code": {
+            "S": "1204"
+          },
+          "ship_country": {
+            "S": "Switzerland"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "11076"
+          },
+          "customer_id": {
+            "S": "BONAP"
+          },
+          "employee_id": {
+            "N": "4"
+          },
+          "order_date": {
+            "S": "1998-05-06"
+          },
+          "required_date": {
+            "S": "1998-06-03"
+          },
+          "ship_via": {
+            "N": "2"
+          },
+          "freight": {
+            "N": "38.2799988"
+          },
+          "ship_name": {
+            "S": "Bon app'"
+          },
+          "ship_address": {
+            "S": "12, rue des Bouchers"
+          },
+          "ship_city": {
+            "S": "Marseille"
+          },
+          "ship_postal_code": {
+            "S": "13008"
+          },
+          "ship_country": {
+            "S": "France"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {
+            "N": "11077"
+          },
+          "customer_id": {
+            "S": "RATTC"
+          },
+          "employee_id": {
+            "N": "1"
+          },
+          "order_date": {
+            "S": "1998-05-06"
+          },
+          "required_date": {
+            "S": "1998-06-03"
+          },
+          "ship_via": {
+            "N": "2"
+          },
+          "freight": {
+            "N": "8.52999973"
+          },
+          "ship_name": {
+            "S": "Rattlesnake Canyon Grocery"
+          },
+          "ship_address": {
+            "S": "2817 Milton Dr."
+          },
+          "ship_city": {
+            "S": "Albuquerque"
+          },
+          "ship_region": {
+            "S": "NM"
+          },
+          "ship_postal_code": {
+            "S": "87110"
+          },
+          "ship_country": {
+            "S": "USA"
+          }
+        }
+      }
+    }
+  ]
+}

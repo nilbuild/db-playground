@@ -1,0 +1,904 @@
+{
+  "products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "51"
+          },
+          "product_name": {
+            "S": "Manjimup Dried Apples"
+          },
+          "supplier_id": {
+            "N": "24"
+          },
+          "category_id": {
+            "N": "7"
+          },
+          "quantity_per_unit": {
+            "S": "50 - 300 g pkgs."
+          },
+          "unit_price": {
+            "N": "53.0"
+          },
+          "units_in_stock": {
+            "N": "20"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "10"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "52"
+          },
+          "product_name": {
+            "S": "Filo Mix"
+          },
+          "supplier_id": {
+            "N": "24"
+          },
+          "category_id": {
+            "N": "5"
+          },
+          "quantity_per_unit": {
+            "S": "16 - 2 kg boxes"
+          },
+          "unit_price": {
+            "N": "7.0"
+          },
+          "units_in_stock": {
+            "N": "38"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "53"
+          },
+          "product_name": {
+            "S": "Perth Pasties"
+          },
+          "supplier_id": {
+            "N": "24"
+          },
+          "category_id": {
+            "N": "6"
+          },
+          "quantity_per_unit": {
+            "S": "48 pieces"
+          },
+          "unit_price": {
+            "N": "32.7999992"
+          },
+          "units_in_stock": {
+            "N": "0"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "54"
+          },
+          "product_name": {
+            "S": "Tourti\u00e8re"
+          },
+          "supplier_id": {
+            "N": "25"
+          },
+          "category_id": {
+            "N": "6"
+          },
+          "quantity_per_unit": {
+            "S": "16 pies"
+          },
+          "unit_price": {
+            "N": "7.44999981"
+          },
+          "units_in_stock": {
+            "N": "21"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "10"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "55"
+          },
+          "product_name": {
+            "S": "P\u00e2t\u00e9 chinois"
+          },
+          "supplier_id": {
+            "N": "25"
+          },
+          "category_id": {
+            "N": "6"
+          },
+          "quantity_per_unit": {
+            "S": "24 boxes x 2 pies"
+          },
+          "unit_price": {
+            "N": "24.0"
+          },
+          "units_in_stock": {
+            "N": "115"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "56"
+          },
+          "product_name": {
+            "S": "Gnocchi di nonna Alice"
+          },
+          "supplier_id": {
+            "N": "26"
+          },
+          "category_id": {
+            "N": "5"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 250 g pkgs."
+          },
+          "unit_price": {
+            "N": "38.0"
+          },
+          "units_in_stock": {
+            "N": "21"
+          },
+          "units_on_order": {
+            "N": "10"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "57"
+          },
+          "product_name": {
+            "S": "Ravioli Angelo"
+          },
+          "supplier_id": {
+            "N": "26"
+          },
+          "category_id": {
+            "N": "5"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 250 g pkgs."
+          },
+          "unit_price": {
+            "N": "19.5"
+          },
+          "units_in_stock": {
+            "N": "36"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "58"
+          },
+          "product_name": {
+            "S": "Escargots de Bourgogne"
+          },
+          "supplier_id": {
+            "N": "27"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "24 pieces"
+          },
+          "unit_price": {
+            "N": "13.25"
+          },
+          "units_in_stock": {
+            "N": "62"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "59"
+          },
+          "product_name": {
+            "S": "Raclette Courdavault"
+          },
+          "supplier_id": {
+            "N": "28"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "5 kg pkg."
+          },
+          "unit_price": {
+            "N": "55.0"
+          },
+          "units_in_stock": {
+            "N": "79"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "60"
+          },
+          "product_name": {
+            "S": "Camembert Pierrot"
+          },
+          "supplier_id": {
+            "N": "28"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "15 - 300 g rounds"
+          },
+          "unit_price": {
+            "N": "34.0"
+          },
+          "units_in_stock": {
+            "N": "19"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "61"
+          },
+          "product_name": {
+            "S": "Sirop d'\u00e9rable"
+          },
+          "supplier_id": {
+            "N": "29"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 500 ml bottles"
+          },
+          "unit_price": {
+            "N": "28.5"
+          },
+          "units_in_stock": {
+            "N": "113"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "62"
+          },
+          "product_name": {
+            "S": "Tarte au sucre"
+          },
+          "supplier_id": {
+            "N": "29"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "48 pies"
+          },
+          "unit_price": {
+            "N": "49.2999992"
+          },
+          "units_in_stock": {
+            "N": "17"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "63"
+          },
+          "product_name": {
+            "S": "Vegie-spread"
+          },
+          "supplier_id": {
+            "N": "7"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "15 - 625 g jars"
+          },
+          "unit_price": {
+            "N": "43.9000015"
+          },
+          "units_in_stock": {
+            "N": "24"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "64"
+          },
+          "product_name": {
+            "S": "Wimmers gute Semmelkn\u00f6del"
+          },
+          "supplier_id": {
+            "N": "12"
+          },
+          "category_id": {
+            "N": "5"
+          },
+          "quantity_per_unit": {
+            "S": "20 bags x 4 pieces"
+          },
+          "unit_price": {
+            "N": "33.25"
+          },
+          "units_in_stock": {
+            "N": "22"
+          },
+          "units_on_order": {
+            "N": "80"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "65"
+          },
+          "product_name": {
+            "S": "Louisiana Fiery Hot Pepper Sauce"
+          },
+          "supplier_id": {
+            "N": "2"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "32 - 8 oz bottles"
+          },
+          "unit_price": {
+            "N": "21.0499992"
+          },
+          "units_in_stock": {
+            "N": "76"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "66"
+          },
+          "product_name": {
+            "S": "Louisiana Hot Spiced Okra"
+          },
+          "supplier_id": {
+            "N": "2"
+          },
+          "category_id": {
+            "N": "2"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 8 oz jars"
+          },
+          "unit_price": {
+            "N": "17.0"
+          },
+          "units_in_stock": {
+            "N": "4"
+          },
+          "units_on_order": {
+            "N": "100"
+          },
+          "reorder_level": {
+            "N": "20"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "67"
+          },
+          "product_name": {
+            "S": "Laughing Lumberjack Lager"
+          },
+          "supplier_id": {
+            "N": "16"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 12 oz bottles"
+          },
+          "unit_price": {
+            "N": "14.0"
+          },
+          "units_in_stock": {
+            "N": "52"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "10"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "68"
+          },
+          "product_name": {
+            "S": "Scottish Longbreads"
+          },
+          "supplier_id": {
+            "N": "8"
+          },
+          "category_id": {
+            "N": "3"
+          },
+          "quantity_per_unit": {
+            "S": "10 boxes x 8 pieces"
+          },
+          "unit_price": {
+            "N": "12.5"
+          },
+          "units_in_stock": {
+            "N": "6"
+          },
+          "units_on_order": {
+            "N": "10"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "69"
+          },
+          "product_name": {
+            "S": "Gudbrandsdalsost"
+          },
+          "supplier_id": {
+            "N": "15"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "10 kg pkg."
+          },
+          "unit_price": {
+            "N": "36.0"
+          },
+          "units_in_stock": {
+            "N": "26"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "15"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "70"
+          },
+          "product_name": {
+            "S": "Outback Lager"
+          },
+          "supplier_id": {
+            "N": "7"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 355 ml bottles"
+          },
+          "unit_price": {
+            "N": "15.0"
+          },
+          "units_in_stock": {
+            "N": "15"
+          },
+          "units_on_order": {
+            "N": "10"
+          },
+          "reorder_level": {
+            "N": "30"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "71"
+          },
+          "product_name": {
+            "S": "Flotemysost"
+          },
+          "supplier_id": {
+            "N": "15"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "10 - 500 g pkgs."
+          },
+          "unit_price": {
+            "N": "21.5"
+          },
+          "units_in_stock": {
+            "N": "26"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "72"
+          },
+          "product_name": {
+            "S": "Mozzarella di Giovanni"
+          },
+          "supplier_id": {
+            "N": "14"
+          },
+          "category_id": {
+            "N": "4"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 200 g pkgs."
+          },
+          "unit_price": {
+            "N": "34.7999992"
+          },
+          "units_in_stock": {
+            "N": "14"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "0"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "73"
+          },
+          "product_name": {
+            "S": "R\u00f6d Kaviar"
+          },
+          "supplier_id": {
+            "N": "17"
+          },
+          "category_id": {
+            "N": "8"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 150 g jars"
+          },
+          "unit_price": {
+            "N": "15.0"
+          },
+          "units_in_stock": {
+            "N": "101"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "74"
+          },
+          "product_name": {
+            "S": "Longlife Tofu"
+          },
+          "supplier_id": {
+            "N": "4"
+          },
+          "category_id": {
+            "N": "7"
+          },
+          "quantity_per_unit": {
+            "S": "5 kg pkg."
+          },
+          "unit_price": {
+            "N": "10.0"
+          },
+          "units_in_stock": {
+            "N": "4"
+          },
+          "units_on_order": {
+            "N": "20"
+          },
+          "reorder_level": {
+            "N": "5"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "product_id": {
+            "N": "75"
+          },
+          "product_name": {
+            "S": "Rh\u00f6nbr\u00e4u Klosterbier"
+          },
+          "supplier_id": {
+            "N": "12"
+          },
+          "category_id": {
+            "N": "1"
+          },
+          "quantity_per_unit": {
+            "S": "24 - 0.5 l bottles"
+          },
+          "unit_price": {
+            "N": "7.75"
+          },
+          "units_in_stock": {
+            "N": "125"
+          },
+          "units_on_order": {
+            "N": "0"
+          },
+          "reorder_level": {
+            "N": "25"
+          },
+          "discontinued": {
+            "N": "0"
+          }
+        }
+      }
+    }
+  ]
+}

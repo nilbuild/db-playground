@@ -1,0 +1,589 @@
+{
+  "customers": [
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "SUPRD"
+          },
+          "company_name": {
+            "S": "Supr\u00eames d\u00e9lices"
+          },
+          "contact_name": {
+            "S": "Pascale Cartrain"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "Boulevard Tirou, 255"
+          },
+          "city": {
+            "S": "Charleroi"
+          },
+          "postal_code": {
+            "S": "B-6000"
+          },
+          "country": {
+            "S": "Belgium"
+          },
+          "phone": {
+            "S": "(071) 23 67 22 20"
+          },
+          "fax": {
+            "S": "(071) 23 67 22 21"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "THEBI"
+          },
+          "company_name": {
+            "S": "The Big Cheese"
+          },
+          "contact_name": {
+            "S": "Liz Nixon"
+          },
+          "contact_title": {
+            "S": "Marketing Manager"
+          },
+          "address": {
+            "S": "89 Jefferson Way Suite 2"
+          },
+          "city": {
+            "S": "Portland"
+          },
+          "region": {
+            "S": "OR"
+          },
+          "postal_code": {
+            "S": "97201"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(503) 555-3612"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "THECR"
+          },
+          "company_name": {
+            "S": "The Cracker Box"
+          },
+          "contact_name": {
+            "S": "Liu Wong"
+          },
+          "contact_title": {
+            "S": "Marketing Assistant"
+          },
+          "address": {
+            "S": "55 Grizzly Peak Rd."
+          },
+          "city": {
+            "S": "Butte"
+          },
+          "region": {
+            "S": "MT"
+          },
+          "postal_code": {
+            "S": "59801"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(406) 555-5834"
+          },
+          "fax": {
+            "S": "(406) 555-8083"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "TOMSP"
+          },
+          "company_name": {
+            "S": "Toms Spezialit\u00e4ten"
+          },
+          "contact_name": {
+            "S": "Karin Josephs"
+          },
+          "contact_title": {
+            "S": "Marketing Manager"
+          },
+          "address": {
+            "S": "Luisenstr. 48"
+          },
+          "city": {
+            "S": "M\u00fcnster"
+          },
+          "postal_code": {
+            "S": "44087"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "0251-031259"
+          },
+          "fax": {
+            "S": "0251-035695"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "TORTU"
+          },
+          "company_name": {
+            "S": "Tortuga Restaurante"
+          },
+          "contact_name": {
+            "S": "Miguel Angel Paolino"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "Avda. Azteca 123"
+          },
+          "city": {
+            "S": "M\u00e9xico D.F."
+          },
+          "postal_code": {
+            "S": "05033"
+          },
+          "country": {
+            "S": "Mexico"
+          },
+          "phone": {
+            "S": "(5) 555-2933"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "TRADH"
+          },
+          "company_name": {
+            "S": "Tradi\u00e7\u00e3o Hipermercados"
+          },
+          "contact_name": {
+            "S": "Anabela Domingues"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Av. In\u00eas de Castro, 414"
+          },
+          "city": {
+            "S": "Sao Paulo"
+          },
+          "region": {
+            "S": "SP"
+          },
+          "postal_code": {
+            "S": "05634-030"
+          },
+          "country": {
+            "S": "Brazil"
+          },
+          "phone": {
+            "S": "(11) 555-2167"
+          },
+          "fax": {
+            "S": "(11) 555-2168"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "TRAIH"
+          },
+          "company_name": {
+            "S": "Trail's Head Gourmet Provisioners"
+          },
+          "contact_name": {
+            "S": "Helvetius Nagy"
+          },
+          "contact_title": {
+            "S": "Sales Associate"
+          },
+          "address": {
+            "S": "722 DaVinci Blvd."
+          },
+          "city": {
+            "S": "Kirkland"
+          },
+          "region": {
+            "S": "WA"
+          },
+          "postal_code": {
+            "S": "98034"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(206) 555-8257"
+          },
+          "fax": {
+            "S": "(206) 555-2174"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "VAFFE"
+          },
+          "company_name": {
+            "S": "Vaffeljernet"
+          },
+          "contact_name": {
+            "S": "Palle Ibsen"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "Smagsloget 45"
+          },
+          "city": {
+            "S": "\u00c5rhus"
+          },
+          "postal_code": {
+            "S": "8200"
+          },
+          "country": {
+            "S": "Denmark"
+          },
+          "phone": {
+            "S": "86 21 32 43"
+          },
+          "fax": {
+            "S": "86 22 33 44"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "VICTE"
+          },
+          "company_name": {
+            "S": "Victuailles en stock"
+          },
+          "contact_name": {
+            "S": "Mary Saveley"
+          },
+          "contact_title": {
+            "S": "Sales Agent"
+          },
+          "address": {
+            "S": "2, rue du Commerce"
+          },
+          "city": {
+            "S": "Lyon"
+          },
+          "postal_code": {
+            "S": "69004"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "78.32.54.86"
+          },
+          "fax": {
+            "S": "78.32.54.87"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "VINET"
+          },
+          "company_name": {
+            "S": "Vins et alcools Chevalier"
+          },
+          "contact_name": {
+            "S": "Paul Henriot"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "59 rue de l'Abbaye"
+          },
+          "city": {
+            "S": "Reims"
+          },
+          "postal_code": {
+            "S": "51100"
+          },
+          "country": {
+            "S": "France"
+          },
+          "phone": {
+            "S": "26.47.15.10"
+          },
+          "fax": {
+            "S": "26.47.15.11"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "WANDK"
+          },
+          "company_name": {
+            "S": "Die Wandernde Kuh"
+          },
+          "contact_name": {
+            "S": "Rita M\u00fcller"
+          },
+          "contact_title": {
+            "S": "Sales Representative"
+          },
+          "address": {
+            "S": "Adenauerallee 900"
+          },
+          "city": {
+            "S": "Stuttgart"
+          },
+          "postal_code": {
+            "S": "70563"
+          },
+          "country": {
+            "S": "Germany"
+          },
+          "phone": {
+            "S": "0711-020361"
+          },
+          "fax": {
+            "S": "0711-035428"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "WARTH"
+          },
+          "company_name": {
+            "S": "Wartian Herkku"
+          },
+          "contact_name": {
+            "S": "Pirkko Koskitalo"
+          },
+          "contact_title": {
+            "S": "Accounting Manager"
+          },
+          "address": {
+            "S": "Torikatu 38"
+          },
+          "city": {
+            "S": "Oulu"
+          },
+          "postal_code": {
+            "S": "90110"
+          },
+          "country": {
+            "S": "Finland"
+          },
+          "phone": {
+            "S": "981-443655"
+          },
+          "fax": {
+            "S": "981-443655"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "WELLI"
+          },
+          "company_name": {
+            "S": "Wellington Importadora"
+          },
+          "contact_name": {
+            "S": "Paula Parente"
+          },
+          "contact_title": {
+            "S": "Sales Manager"
+          },
+          "address": {
+            "S": "Rua do Mercado, 12"
+          },
+          "city": {
+            "S": "Resende"
+          },
+          "region": {
+            "S": "SP"
+          },
+          "postal_code": {
+            "S": "08737-363"
+          },
+          "country": {
+            "S": "Brazil"
+          },
+          "phone": {
+            "S": "(14) 555-8122"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "WHITC"
+          },
+          "company_name": {
+            "S": "White Clover Markets"
+          },
+          "contact_name": {
+            "S": "Karl Jablonski"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "305 - 14th Ave. S. Suite 3B"
+          },
+          "city": {
+            "S": "Seattle"
+          },
+          "region": {
+            "S": "WA"
+          },
+          "postal_code": {
+            "S": "98128"
+          },
+          "country": {
+            "S": "USA"
+          },
+          "phone": {
+            "S": "(206) 555-4112"
+          },
+          "fax": {
+            "S": "(206) 555-4115"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "WILMK"
+          },
+          "company_name": {
+            "S": "Wilman Kala"
+          },
+          "contact_name": {
+            "S": "Matti Karttunen"
+          },
+          "contact_title": {
+            "S": "Owner/Marketing Assistant"
+          },
+          "address": {
+            "S": "Keskuskatu 45"
+          },
+          "city": {
+            "S": "Helsinki"
+          },
+          "postal_code": {
+            "S": "21240"
+          },
+          "country": {
+            "S": "Finland"
+          },
+          "phone": {
+            "S": "90-224 8858"
+          },
+          "fax": {
+            "S": "90-224 8858"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "customer_id": {
+            "S": "WOLZA"
+          },
+          "company_name": {
+            "S": "Wolski  Zajazd"
+          },
+          "contact_name": {
+            "S": "Zbyszek Piestrzeniewicz"
+          },
+          "contact_title": {
+            "S": "Owner"
+          },
+          "address": {
+            "S": "ul. Filtrowa 68"
+          },
+          "city": {
+            "S": "Warszawa"
+          },
+          "postal_code": {
+            "S": "01-012"
+          },
+          "country": {
+            "S": "Poland"
+          },
+          "phone": {
+            "S": "(26) 642-7012"
+          },
+          "fax": {
+            "S": "(26) 642-7012"
+          }
+        }
+      }
+    }
+  ]
+}
