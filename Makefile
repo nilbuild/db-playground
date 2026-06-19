@@ -1,4 +1,4 @@
-.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli duckdb duckdb-cli dynamodb dynamodb-cli
+.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli duckdb duckdb-cli dynamodb dynamodb-cli cockroachdb cockroachdb-cli
 
 redis:
 	./playground.sh -s redis
@@ -49,3 +49,8 @@ dynamodb:
 	./playground.sh -s dynamodb
 dynamodb-cli:
 	@docker run --rm -it -e AWS_ACCESS_KEY_ID=local -e AWS_SECRET_ACCESS_KEY=local -e AWS_DEFAULT_REGION=us-east-1 amazon/aws-cli --endpoint-url http://host.docker.internal:8000 dynamodb list-tables
+
+cockroachdb:
+	./playground.sh -s cockroachdb
+cockroachdb-cli:
+	@docker exec -it db_playground_cockroachdb cockroach sql --insecure -d northwind

@@ -5,7 +5,7 @@
 The repository has a simple docker-compose file and a few scripts to set up any database playground with sample data in
 seconds. It is a great way to test your database queries and learn about the database.
 
-You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB, DynamoDB and some sample indexes (omdb and shakespeare) in Elasticsearch.
+You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB, DynamoDB, CockroachDB and some sample indexes (omdb and shakespeare) in Elasticsearch.
 
 ## Usage
 
@@ -29,6 +29,7 @@ make sqlite
 make sqlserver
 make duckdb
 make dynamodb
+make cockroachdb
 ```
 
 Once the service is up, you can run the below command in another terminal to connect to the service
@@ -43,6 +44,7 @@ make sqlite-cli
 make sqlserver-cli
 make duckdb-cli
 make dynamodb-cli
+make cockroachdb-cli
 ```
 
 ### Using playground.sh
@@ -66,6 +68,7 @@ make dynamodb-cli
 ./playground.sh -s sqlserver
 ./playground.sh -s duckdb
 ./playground.sh -s dynamodb
+./playground.sh -s cockroachdb
 
 # clean up the playground
 ./playground.sh -c
@@ -82,6 +85,7 @@ make dynamodb-cli
 ./playground.sh -c -s sqlserver
 ./playground.sh -c -s duckdb
 ./playground.sh -c -s dynamodb
+./playground.sh -c -s cockroachdb
 ```
 
 You can also ue the `docker-compose` command directly to run the services.
@@ -269,6 +273,28 @@ aws dynamodb scan --table-name categories --endpoint-url http://localhost:8000
 ```
 
 If you do not have the AWS CLI installed locally, the `make dynamodb-cli` target runs it for you inside a throwaway container.
+
+## CockroachDB
+
+CockroachDB runs as a single-node insecure cluster, so it accepts connections as
+the `root` user without a password. It is wire-compatible with PostgreSQL, so you
+can use any PostgreSQL client to connect.
+
+```text
+Host:     localhost
+Port:     26257
+Username: root
+Password: (none, insecure mode)
+Database: northwind
+```
+
+You can use the following command to run commands on the database
+
+```bash
+docker exec -it db_playground_cockroachdb cockroach sql --insecure -d northwind
+```
+
+The DB Console (web UI) is available at http://localhost:8081
 
 ## Contributing
 

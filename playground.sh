@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | sqlserver | duckdb | dynamodb | all"
+readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | sqlserver | duckdb | dynamodb | cockroachdb | all"
 readonly DOCKER_COMPOSE_FILE="./docker-compose.yml"
 
 require() {
@@ -29,6 +29,7 @@ Examples:
   playground.sh -s sqlserver      # Run sqlserver service
   playground.sh -s duckdb         # Run duckdb service
   playground.sh -s dynamodb       # Run dynamodb service
+  playground.sh -s cockroachdb    # Run cockroachdb service
   playground.sh -s all            # Run all services
   playground.sh -c                # Clean up the data only
 EOS
@@ -98,6 +99,9 @@ if [[ ${option_s:=} ]]; then
   elif [[ $option_s == "dynamodb" ]]; then
     echo " 🚀  Running dynamodb service"
     docker compose -f "${DOCKER_COMPOSE_FILE}" up dynamodb dynamodb-seed
+  elif [[ $option_s == "cockroachdb" ]]; then
+    echo " 🚀  Running cockroachdb service"
+    docker compose -f "${DOCKER_COMPOSE_FILE}" up cockroachdb cockroachdb-seed
   else
     echo " 🚀  Running $option_s service"
     docker compose -f "${DOCKER_COMPOSE_FILE}" up "$option_s"

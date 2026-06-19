@@ -141,6 +141,25 @@ services:
     links:
       - dynamodb
 
+  cockroachdb:
+    image: cockroachdb/cockroach:v24.1.30
+    container_name: db_playground_cockroachdb
+    command: start-single-node --insecure
+    volumes:
+      - db_playground_cockroachdbdata:/cockroach/cockroach-data
+    ports:
+      - "26257:26257"
+      - "8081:8080"
+
+  cockroachdb-seed:
+    build: cockroachdb
+    container_name: db_pg_cockroachdb_seed
+    environment:
+      - DB_HOST=cockroachdb
+      - DB_PORT=26257
+    links:
+      - cockroachdb
+
 volumes:
   db_playground_pgdata:
   db_playground_mysqldata:
@@ -148,3 +167,4 @@ volumes:
   db_playground_mongodata:
   db_playground_sqlserverdata:
   db_playground_dynamodbdata:
+  db_playground_cockroachdbdata:
