@@ -165,6 +165,8 @@ services:
     container_name: db_playground_cassandra
     environment:
       CASSANDRA_CLUSTER_NAME: db_playground
+      MAX_HEAP_SIZE: 1G
+      HEAP_NEWSIZE: 256M
     volumes:
       - db_playground_cassandradata:/var/lib/cassandra
     ports:
