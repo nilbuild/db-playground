@@ -1,4 +1,4 @@
-.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli duckdb duckdb-cli dynamodb dynamodb-cli cockroachdb cockroachdb-cli cassandra cassandra-cli
+.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli duckdb duckdb-cli dynamodb dynamodb-cli cockroachdb cockroachdb-cli cassandra cassandra-cli oracle oracle-cli
 
 redis:
 	./playground.sh -s redis
@@ -59,3 +59,8 @@ cassandra:
 	./playground.sh -s cassandra
 cassandra-cli:
 	@docker exec -it db_playground_cassandra cqlsh -k northwind
+
+oracle:
+	./playground.sh -s oracle
+oracle-cli:
+	@docker exec -it db_playground_oracle sqlplus admin/admin@localhost:1521/FREEPDB1

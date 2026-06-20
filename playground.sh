@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | sqlserver | duckdb | dynamodb | cockroachdb | cassandra | all"
+readonly SERVICES_LIST="mongo | postgres | mysql | mariadb | elasticsearch | redis | sqlite | sqlserver | duckdb | dynamodb | cockroachdb | cassandra | oracle | all"
 readonly DOCKER_COMPOSE_FILE="./docker-compose.yml"
 
 require() {
@@ -31,6 +31,7 @@ Examples:
   playground.sh -s dynamodb       # Run dynamodb service
   playground.sh -s cockroachdb    # Run cockroachdb service
   playground.sh -s cassandra      # Run cassandra service
+  playground.sh -s oracle         # Run oracle service
   playground.sh -s all            # Run all services
   playground.sh -c                # Clean up the data only
 EOS

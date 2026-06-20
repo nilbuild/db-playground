@@ -5,7 +5,7 @@
 The repository has a simple docker-compose file and a few scripts to set up any database playground with sample data in
 seconds. It is a great way to test your database queries and learn about the database.
 
-You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB, DynamoDB, CockroachDB, Cassandra and some sample indexes (omdb and shakespeare) in Elasticsearch.
+You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB, DynamoDB, CockroachDB, Cassandra, Oracle and some sample indexes (omdb and shakespeare) in Elasticsearch.
 
 ## Usage
 
@@ -31,6 +31,7 @@ make duckdb
 make dynamodb
 make cockroachdb
 make cassandra
+make oracle
 ```
 
 Once the service is up, you can run the below command in another terminal to connect to the service
@@ -47,6 +48,7 @@ make duckdb-cli
 make dynamodb-cli
 make cockroachdb-cli
 make cassandra-cli
+make oracle-cli
 ```
 
 ### Using playground.sh
@@ -72,6 +74,7 @@ make cassandra-cli
 ./playground.sh -s dynamodb
 ./playground.sh -s cockroachdb
 ./playground.sh -s cassandra
+./playground.sh -s oracle
 
 # clean up the playground
 ./playground.sh -c
@@ -90,6 +93,7 @@ make cassandra-cli
 ./playground.sh -c -s dynamodb
 ./playground.sh -c -s cockroachdb
 ./playground.sh -c -s cassandra
+./playground.sh -c -s oracle
 ```
 
 You can also ue the `docker-compose` command directly to run the services.
@@ -320,6 +324,28 @@ You can use the following command to open a CQL shell on the database
 
 ```bash
 docker exec -it db_playground_cassandra cqlsh -k northwind
+```
+
+## Oracle
+
+Oracle runs using the [Oracle Database Free](https://hub.docker.com/r/gvenzl/oracle-free)
+image. The Northwind dataset is loaded into the `admin` schema of the `FREEPDB1`
+pluggable database the first time the container starts. The initial startup
+takes a couple of minutes while Oracle initializes; watch the logs for the
+`DATABASE IS READY TO USE!` message before connecting.
+
+```text
+Host:     localhost
+Port:     1521
+Service:  FREEPDB1
+Username: admin
+Password: admin
+```
+
+You can use the following command to open a SQL\*Plus shell on the database
+
+```bash
+docker exec -it db_playground_oracle sqlplus admin/admin@localhost:1521/FREEPDB1
 ```
 
 ## Contributing

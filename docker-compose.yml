@@ -181,6 +181,19 @@ services:
     links:
       - cassandra
 
+  oracle:
+    image: gvenzl/oracle-free:23-slim-faststart
+    container_name: db_playground_oracle
+    environment:
+      ORACLE_PASSWORD: admin
+      APP_USER: admin
+      APP_USER_PASSWORD: admin
+    volumes:
+      - ./oracle/dataset:/container-entrypoint-initdb.d
+      - db_playground_oracledata:/opt/oracle/oradata
+    ports:
+      - "1521:1521"
+
 volumes:
   db_playground_pgdata:
   db_playground_mysqldata:
@@ -190,3 +203,4 @@ volumes:
   db_playground_dynamodbdata:
   db_playground_cockroachdbdata:
   db_playground_cassandradata:
+  db_playground_oracledata:
