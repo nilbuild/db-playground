@@ -160,6 +160,25 @@ services:
     links:
       - cockroachdb
 
+  cassandra:
+    image: cassandra:5.0
+    container_name: db_playground_cassandra
+    environment:
+      CASSANDRA_CLUSTER_NAME: db_playground
+    volumes:
+      - db_playground_cassandradata:/var/lib/cassandra
+    ports:
+      - "9042:9042"
+
+  cassandra-seed:
+    build: cassandra
+    container_name: db_pg_cassandra_seed
+    environment:
+      - DB_HOST=cassandra
+      - DB_PORT=9042
+    links:
+      - cassandra
+
 volumes:
   db_playground_pgdata:
   db_playground_mysqldata:
@@ -168,3 +187,4 @@ volumes:
   db_playground_sqlserverdata:
   db_playground_dynamodbdata:
   db_playground_cockroachdbdata:
+  db_playground_cassandradata:

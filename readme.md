@@ -5,7 +5,7 @@
 The repository has a simple docker-compose file and a few scripts to set up any database playground with sample data in
 seconds. It is a great way to test your database queries and learn about the database.
 
-You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB, DynamoDB, CockroachDB and some sample indexes (omdb and shakespeare) in Elasticsearch.
+You can run a single command to setup [Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind) dataset in PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, SQL Server, DuckDB, DynamoDB, CockroachDB, Cassandra and some sample indexes (omdb and shakespeare) in Elasticsearch.
 
 ## Usage
 
@@ -30,6 +30,7 @@ make sqlserver
 make duckdb
 make dynamodb
 make cockroachdb
+make cassandra
 ```
 
 Once the service is up, you can run the below command in another terminal to connect to the service
@@ -45,6 +46,7 @@ make sqlserver-cli
 make duckdb-cli
 make dynamodb-cli
 make cockroachdb-cli
+make cassandra-cli
 ```
 
 ### Using playground.sh
@@ -69,6 +71,7 @@ make cockroachdb-cli
 ./playground.sh -s duckdb
 ./playground.sh -s dynamodb
 ./playground.sh -s cockroachdb
+./playground.sh -s cassandra
 
 # clean up the playground
 ./playground.sh -c
@@ -86,6 +89,7 @@ make cockroachdb-cli
 ./playground.sh -c -s duckdb
 ./playground.sh -c -s dynamodb
 ./playground.sh -c -s cockroachdb
+./playground.sh -c -s cassandra
 ```
 
 You can also ue the `docker-compose` command directly to run the services.
@@ -295,6 +299,28 @@ docker exec -it db_playground_cockroachdb cockroach sql --insecure -d northwind
 ```
 
 The DB Console (web UI) is available at http://localhost:8081
+
+## Cassandra
+
+Cassandra runs as a single node with authentication disabled, so it accepts
+connections without a username or password. The Northwind tables are loaded into
+a `northwind` keyspace as standalone wide-column tables, each with a primary key
+derived from the original schema (Cassandra does not support joins or foreign
+keys).
+
+```text
+Host:     localhost
+Port:     9042
+Username: (none)
+Password: (none)
+Keyspace: northwind
+```
+
+You can use the following command to open a CQL shell on the database
+
+```bash
+docker exec -it db_playground_cassandra cqlsh -k northwind
+```
 
 ## Contributing
 

@@ -1,4 +1,4 @@
-.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli duckdb duckdb-cli dynamodb dynamodb-cli cockroachdb cockroachdb-cli
+.PHONY: redis redis-cli mongo mongo-cli postgres postgres-cli mysql mysql-cli mariadb mariadb-cli elasticsearch elasticsearch-cli sqlite sqlite-cli sqlserver sqlserver-cli duckdb duckdb-cli dynamodb dynamodb-cli cockroachdb cockroachdb-cli cassandra cassandra-cli
 
 redis:
 	./playground.sh -s redis
@@ -54,3 +54,8 @@ cockroachdb:
 	./playground.sh -s cockroachdb
 cockroachdb-cli:
 	@docker exec -it db_playground_cockroachdb cockroach sql --insecure -d northwind
+
+cassandra:
+	./playground.sh -s cassandra
+cassandra-cli:
+	@docker exec -it db_playground_cassandra cqlsh -k northwind
