@@ -113,6 +113,20 @@ docker-compose down
 
 Given below are the default configuration for the databases.
 
+- [PostgreSQL](#postgresql)
+- [MySQL](#mysql)
+- [MariaDB](#mariadb)
+- [MongoDB](#mongodb)
+- [Elasticsearch](#elasticsearch)
+- [Redis](#redis)
+- [SQLite](#sqlite)
+- [SQL Server](#sql-server)
+- [DuckDB](#duckdb)
+- [DynamoDB](#dynamodb)
+- [CockroachDB](#cockroachdb)
+- [Cassandra](#cassandra)
+- [Oracle](#oracle)
+
 ### PostgreSQL
 
 Following are the details to connect to the database
